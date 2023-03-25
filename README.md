@@ -2,9 +2,7 @@
 
 Hi! I compiled **poe.ninja API** to use in projects
 
-[TOC]
-
-# Currency
+# Currency [Heading link](https://github.com/ayberkgezer/poe.ninja-API-Document "Currency")
 
 | Category           | API                                                                             |
 | ------------------ | ------------------------------------------------------------------------------- |
