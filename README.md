@@ -2,6 +2,8 @@
 
 Hi! I compiled **poe.ninja API** to use in projects
 
+[TOC]
+
 # Currency
 
 | Category           | API                                                                             |
