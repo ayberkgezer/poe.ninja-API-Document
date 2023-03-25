@@ -54,11 +54,11 @@ Hi! I compiled **poe.ninja API** to use in projects
         "includes_secondary": true,
         "listing_count": 161
         },
-    "paySparkLine": {{"data": [],"totalChange": 42.25},},
+    "paySparkLine": {{"data": [],"totalChange": 42.25},
     "receiveSparkLine": {"data": [],"totalChange": -3.92},
     "chaosEquivalent": 143915.04,
-    "lowConfidencePaySparkLine": {{"data": [],"totalChange": 42.25},},
-    "lowConfidenceReceiveSparkLine": {{"data": [],"totalChange": -3.92},},
+    "lowConfidencePaySparkLine": {{"data": [],"totalChange": 42.25}},
+    "lowConfidenceReceiveSparkLine": {{"data": [],"totalChange": -3.92},
     "detailsId": "mirror-of-kalandra"},
 ],
 "currencyDetails": [
