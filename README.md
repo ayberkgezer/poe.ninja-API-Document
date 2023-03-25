@@ -7,6 +7,8 @@ Hi! I compiled **poe.ninja API** to use in projects
 - Sanctum
 - Standart
 
+## Tables
+
 | Category                                                                                        | API                                                                             |
 | ----------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------- |
 | [Currency](https://github.com/ayberkgezer/poe.ninja-API-Document#currency)                      | https://poe.ninja/api/data/currencyoverview?league=LEAGUE-NAME&type=Currency    |
@@ -33,8 +35,8 @@ Hi! I compiled **poe.ninja API** to use in projects
 
 # Currency
 
-- LEAGUE-NAME: `Write League Names`
 - `https://poe.ninja/api/data/currencyoverview?league=LEAGUE-NAME&type=Currency`
+- LEAGUE-NAME: `Write League Names`
 
 ```json
 "lines": [
