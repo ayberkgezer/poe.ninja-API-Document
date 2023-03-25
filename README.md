@@ -60,7 +60,7 @@ Hi! I compiled **poe.ninja API** to use in projects
     "lowConfidencePaySparkLine": {{"data": [],"totalChange": 42.25}},
     "lowConfidenceReceiveSparkLine": {{"data": [],"totalChange": -3.92},
     "detailsId": "mirror-of-kalandra"},
-],
+]
 "currencyDetails": [
     {"id": 22,
     "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lEdXBsaWNhdGUiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/7111e35254/CurrencyDuplicate.png",
