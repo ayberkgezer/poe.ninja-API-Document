@@ -2,46 +2,29 @@
 
 Hi! I compiled **poe.ninja API** to use in projects
 
-[Currency](https://github.com/ayberkgezer/poe.ninja-API-Document#currency)
-[Fragment](https://github.com/ayberkgezer/poe.ninja-API-Document#currency)
-[Oils](https://github.com/ayberkgezer/poe.ninja-API-Document#currency)
-[Currency](https://github.com/ayberkgezer/poe.ninja-API-Document#currency)
-[Currency](https://github.com/ayberkgezer/poe.ninja-API-Document#currency)
-[Currency](https://github.com/ayberkgezer/poe.ninja-API-Document#currency)
-[Currency](https://github.com/ayberkgezer/poe.ninja-API-Document#currency)
-[Currency](https://github.com/ayberkgezer/poe.ninja-API-Document#currency)
-[Currency](https://github.com/ayberkgezer/poe.ninja-API-Document#currency)
-[Currency](https://github.com/ayberkgezer/poe.ninja-API-Document#currency)
-[Currency](https://github.com/ayberkgezer/poe.ninja-API-Document#currency)
-[Currency](https://github.com/ayberkgezer/poe.ninja-API-Document#currency)
-[Currency](https://github.com/ayberkgezer/poe.ninja-API-Document#currency)
-[Currency](https://github.com/ayberkgezer/poe.ninja-API-Document#currency)
-[Currency](https://github.com/ayberkgezer/poe.ninja-API-Document#currency)
-[Currency](https://github.com/ayberkgezer/poe.ninja-API-Document#currency)
-
-| Category                                                                   | API                                                                             |
-| -------------------------------------------------------------------------- | ------------------------------------------------------------------------------- |
-| [Currency](https://github.com/ayberkgezer/poe.ninja-API-Document#currency) | https://poe.ninja/api/data/currencyoverview?league=LEAGUE-NAME&type=Currency    |
-| Fragment                                                                   | https://poe.ninja/api/data/currencyoverview?league=LEAGUE-NAME&type=Fragment    |
-| Oils                                                                       | https://poe.ninja/api/data/itemoverview?league=LEAGUE-NAME&type=Oil             |
-| Incubators                                                                 | https://poe.ninja/api/data/itemoverview?league=LEAGUE-NAME&type=Incubator       |
-| Scarabs                                                                    | https://poe.ninja/api/data/itemoverview?league=LEAGUE-NAME&type=Scarab          |
-| Fossils                                                                    | https://poe.ninja/api/data/itemoverview?league=LEAGUE-NAME&type=Fossil          |
-| Resonators                                                                 | https://poe.ninja/api/data/itemoverview?league=LEAGUE-NAME&type=Resonator       |
-| Essence                                                                    | https://poe.ninja/api/data/itemoverview?league=LEAGUE-NAME&type=Essence         |
-| Divination Cards                                                           | https://poe.ninja/api/data/itemoverview?league=LEAGUE-NAME&type=DivinationCard  |
-| Prophecies                                                                 | https://poe.ninja/api/data/itemoverview?league=LEAGUE-NAME&type=Prophecy        |
-| Skill Gems                                                                 | https://poe.ninja/api/data/itemoverview?league=LEAGUE-NAME&type=SkillGem        |
-| Base Types                                                                 | https://poe.ninja/api/data/itemoverview?league=LEAGUE-NAME&type=BaseType        |
-| Helmet Enchants                                                            | https://poe.ninja/api/data/itemoverview?league=LEAGUE-NAME&type=HelmetEnchant   |
-| Unique Maps                                                                | https://poe.ninja/api/data/itemoverview?league=LEAGUE-NAME&type=UniqueMap       |
-| Maps                                                                       | https://poe.ninja/api/data/itemoverview?type=Map&league=LEAGUE-NAME             |
-| Unique Jewels                                                              | https://poe.ninja/api/data/itemoverview?league=LEAGUE-NAME&type=UniqueJewel     |
-| Unique Flasks                                                              | https://poe.ninja/api/data/itemoverview?league=LEAGUE-NAME&type=UniqueFlask     |
-| Unique Weapons                                                             | https://poe.ninja/api/data/itemoverview?league=LEAGUE-NAME&type=UniqueWeapon    |
-| Unique Armours                                                             | https://poe.ninja/api/data/itemoverview?league=LEAGUE-NAME&type=UniqueArmour    |
-| Unique Accessories                                                         | https://poe.ninja/api/data/itemoverview?league=LEAGUE-NAME&type=UniqueAccessory |
-| Beasts                                                                     | https://poe.ninja/api/data/itemoverview?league=LEAGUE-NAME&type=Beast           |
+| Category                                                                                        | API                                                                             |
+| ----------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------- |
+| [Currency](https://github.com/ayberkgezer/poe.ninja-API-Document#currency)                      | https://poe.ninja/api/data/currencyoverview?league=LEAGUE-NAME&type=Currency    |
+| [Fragment](https://github.com/ayberkgezer/poe.ninja-API-Document#fragment)                      | https://poe.ninja/api/data/currencyoverview?league=LEAGUE-NAME&type=Fragment    |
+| [Oils](https://github.com/ayberkgezer/poe.ninja-API-Document#oils)                              | https://poe.ninja/api/data/itemoverview?league=LEAGUE-NAME&type=Oil             |
+| [Incubators ](https://github.com/ayberkgezer/poe.ninja-API-Document#incubators)                 | https://poe.ninja/api/data/itemoverview?league=LEAGUE-NAME&type=Incubator       |
+| [Scarabs ](https://github.com/ayberkgezer/poe.ninja-API-Document#scarabs)                       | https://poe.ninja/api/data/itemoverview?league=LEAGUE-NAME&type=Scarab          |
+| [Fossils ](https://github.com/ayberkgezer/poe.ninja-API-Document#fossils)                       | https://poe.ninja/api/data/itemoverview?league=LEAGUE-NAME&type=Fossil          |
+| [Resonators ](https://github.com/ayberkgezer/poe.ninja-API-Document#resonators)                 | https://poe.ninja/api/data/itemoverview?league=LEAGUE-NAME&type=Resonator       |
+| [Essences ](https://github.com/ayberkgezer/poe.ninja-API-Document#essences)                     | https://poe.ninja/api/data/itemoverview?league=LEAGUE-NAME&type=Essence         |
+| [Divination Cards ](https://github.com/ayberkgezer/poe.ninja-API-Document#divination-cards)     | https://poe.ninja/api/data/itemoverview?league=LEAGUE-NAME&type=DivinationCard  |
+| [Prophecies ](https://github.com/ayberkgezer/poe.ninja-API-Document#prophecies)                 | https://poe.ninja/api/data/itemoverview?league=LEAGUE-NAME&type=Prophecy        |
+| [Skill Gems ](https://github.com/ayberkgezer/poe.ninja-API-Document#skill-gems)                 | https://poe.ninja/api/data/itemoverview?league=LEAGUE-NAME&type=SkillGem        |
+| [Base Types ](https://github.com/ayberkgezer/poe.ninja-API-Document#base-types)                 | https://poe.ninja/api/data/itemoverview?league=LEAGUE-NAME&type=BaseType        |
+| [Helmet Enchants ](https://github.com/ayberkgezer/poe.ninja-API-Document#helmet-enchants)       | https://poe.ninja/api/data/itemoverview?league=LEAGUE-NAME&type=HelmetEnchant   |
+| [Unique Maps ](https://github.com/ayberkgezer/poe.ninja-API-Document#unique-maps)               | https://poe.ninja/api/data/itemoverview?league=LEAGUE-NAME&type=UniqueMap       |
+| [Maps ](https://github.com/ayberkgezer/poe.ninja-API-Document#maps)                             | https://poe.ninja/api/data/itemoverview?type=Map&league=LEAGUE-NAME             |
+| [Unique Jewels ](https://github.com/ayberkgezer/poe.ninja-API-Document#unique-jewels)           | https://poe.ninja/api/data/itemoverview?league=LEAGUE-NAME&type=UniqueJewel     |
+| [Unique Flasks ](https://github.com/ayberkgezer/poe.ninja-API-Document#unique-flasks)           | https://poe.ninja/api/data/itemoverview?league=LEAGUE-NAME&type=UniqueFlask     |
+| [Unique Weapons ](https://github.com/ayberkgezer/poe.ninja-API-Document#unique-weapons)         | https://poe.ninja/api/data/itemoverview?league=LEAGUE-NAME&type=UniqueWeapon    |
+| [Unique Armours ](https://github.com/ayberkgezer/poe.ninja-API-Document#unique-armours)         | https://poe.ninja/api/data/itemoverview?league=LEAGUE-NAME&type=UniqueArmour    |
+| [Unique Accessories ](https://github.com/ayberkgezer/poe.ninja-API-Document#unique-accessories) | https://poe.ninja/api/data/itemoverview?league=LEAGUE-NAME&type=UniqueAccessory |
+| [Beasts ](https://github.com/ayberkgezer/poe.ninja-API-Document#Beasts)                         | https://poe.ninja/api/data/itemoverview?league=LEAGUE-NAME&type=Beast           |
 
 # Currency
 
@@ -87,3 +70,43 @@ Hi! I compiled **poe.ninja API** to use in projects
     "tradeId": "mirror"},
 ]
 ```
+
+# Fragment
+
+# Oils
+
+# Incubators
+
+# Scarabs
+
+# Fossils
+
+# Resonators
+
+# Essences
+
+# Divination Cards
+
+# Prophecies
+
+# Skill Gems
+
+# Base Types
+
+# Helmet Enchants
+
+# Unique Maps
+
+# Maps
+
+# Unique Jewels
+
+# Unique Flasks
+
+# Unique Weapons
+
+# Unique Armours
+
+# Unique Accessories
+
+# Beasts
