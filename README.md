@@ -2,6 +2,11 @@
 
 Hi! I compiled **poe.ninja API** to use in projects
 
+## Active League Names
+
+-Sanctum
+-Standart
+
 | Category                                                                                        | API                                                                             |
 | ----------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------- |
 | [Currency](https://github.com/ayberkgezer/poe.ninja-API-Document#currency)                      | https://poe.ninja/api/data/currencyoverview?league=LEAGUE-NAME&type=Currency    |
@@ -27,6 +32,9 @@ Hi! I compiled **poe.ninja API** to use in projects
 | [Beasts ](https://github.com/ayberkgezer/poe.ninja-API-Document#Beasts)                         | https://poe.ninja/api/data/itemoverview?league=LEAGUE-NAME&type=Beast           |
 
 # Currency
+
+-LEAGUE-NAME: `Write League Names`
+`https://poe.ninja/api/data/currencyoverview?league=LEAGUE-NAME&type=Currency`
 
 ```json
 "lines": [
