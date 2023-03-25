@@ -3,7 +3,7 @@
 Hi! I compiled **poe.ninja API** to use in projects
 
 | Category | API |
-| -------- | ---- |
+| --------- | ------ |
 | Currency | https://poe.ninja/api/data/currencyoverview?league=LEAGUE-NAME&type=Currency |
 | Fragment | https://poe.ninja/api/data/currencyoverview?league=LEAGUE-NAME&type=Fragment |
 | Oils | https://poe.ninja/api/data/itemoverview?league=LEAGUE-NAME&type=Oil |
