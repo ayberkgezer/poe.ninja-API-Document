@@ -2,10 +2,10 @@
 
 Hi! I compiled **poe.ninja API** to use in projects
 
-## Active League Names
+### Active League Names
 
-*Sanctum
-*Standart
+- Sanctum
+- Standart
 
 | Category                                                                                        | API                                                                             |
 | ----------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------- |
@@ -33,7 +33,8 @@ Hi! I compiled **poe.ninja API** to use in projects
 
 # Currency
 
--LEAGUE-NAME: `Write League Names` -`https://poe.ninja/api/data/currencyoverview?league=LEAGUE-NAME&type=Currency`
+- LEAGUE-NAME: `Write League Names`
+- `https://poe.ninja/api/data/currencyoverview?league=LEAGUE-NAME&type=Currency`
 
 ```json
 "lines": [
