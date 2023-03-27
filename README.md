@@ -40,6 +40,7 @@ Hi! I compiled **poe.ninja API** to use in projects
 - `chaosEquivalent`: Chaos Value
 - `pay_currency_id - get_currency_id`: Currency Id
 - `get_currency_id - pay_currency_id`: Chaos Id
+- `detailsId`: Unique Name
 
 ```json
 "lines": [
@@ -56,7 +57,7 @@ Hi! I compiled **poe.ninja API** to use in projects
         "data_point_count": 1,
         "includes_secondary": true,
         "listing_count": 252
-        },
+    },
     "receive": {
         "id": 0,
         "league_id": 161,
@@ -68,67 +69,89 @@ Hi! I compiled **poe.ninja API** to use in projects
         "data_point_count": 1,
         "includes_secondary": true,
         "listing_count": 161
-        },
-    "paySparkLine": {"data": [],"totalChange": 42.25},
-    "receiveSparkLine": {"data": [],"totalChange": -3.92},
+    },
+    "paySparkLine": {
+        "data": [],
+        "totalChange": 42.25
+    },
+    "receiveSparkLine": {
+        "data": [],
+        "totalChange": -3.92
+    },
     "chaosEquivalent": 143915.04,
-    "lowConfidencePaySparkLine": {{"data": [],"totalChange": 42.25}},
-    "lowConfidenceReceiveSparkLine": {{"data": [],"totalChange": -3.92},
-    "detailsId": "mirror-of-kalandra"}},
+    "lowConfidencePaySparkLine": {
+        "data": [],
+        "totalChange": 42.25
+    },
+    "lowConfidenceReceiveSparkLine": {
+        "data": [],
+        "totalChange": -3.92
+    },
+    "detailsId": "mirror-of-kalandra"},
 ]
 "currencyDetails": [
-    {"id": 22,
-    "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lEdXBsaWNhdGUiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/7111e35254/CurrencyDuplicate.png",
-    "name": "Mirror of Kalandra",
-    "tradeId": "mirror"},
+    {
+        "id": 22,
+        "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lEdXBsaWNhdGUiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/7111e35254/CurrencyDuplicate.png",
+        "name": "Mirror of Kalandra",
+        "tradeId": "mirror"
+    },
 ]
 ```
 
 # Fragment
 
-- `https://poe.ninja/api/data/currencyoverview?league=LEAGUE-NAME&type=Currency`
+- `https://poe.ninja/api/data/currencyoverview?league=LEAGUE-NAME&type=Fragment`
 - LEAGUE-NAME: `Write League Names`
+- `chaosEquivalent`: Chaos Value
+- `pay_currency_id - get_currency_id`: Fragment Id
+- `get_currency_id - pay_currency_id`: Chaos Id
+- `detailsId`: Unique Name
 
 ```json
 "lines": [
-    {
-    "currencyTypeName": "Mirror of Kalandra",
+{
+    "currencyTypeName": "Voidborn Reliquary Key",
     "pay": {
         "id": 0,
         "league_id": 161,
-        "pay_currency_id": 22,
+        "pay_currency_id": 232,
         "get_currency_id": 1,
-        "sample_time_utc": "2023-03-25T20:33:07.1089319Z",
-        "count": 59,
-        "value": 0.0000070301,
+        "sample_time_utc": "2023-03-27T16:53:05.2641346Z",
+        "count": 2,
+        "value": 0.0013066536,
         "data_point_count": 1,
         "includes_secondary": true,
-        "listing_count": 252
-        },
-    "receive": {
-        "id": 0,
-        "league_id": 161,
-        "pay_currency_id": 1,
-        "get_currency_id": 22,
-        "sample_time_utc": "2023-03-25T20:33:07.1089319Z",
-        "count": 33,
-        "value": 146900,
-        "data_point_count": 1,
-        "includes_secondary": true,
-        "listing_count": 161
-        },
-    "paySparkLine": {"data": [],"totalChange": 42.25},
-    "receiveSparkLine": {"data": [],"totalChange": -3.92},
-    "chaosEquivalent": 143915.04,
-    "lowConfidencePaySparkLine": {{"data": [],"totalChange": 42.25}},
-    "lowConfidenceReceiveSparkLine": {{"data": [],"totalChange": -3.92},
-    "detailsId": "mirror-of-kalandra"}},
+        "listing_count": 4
+    },
+    "receive": {},
+    "paySparkLine": {
+        "data": [],
+        "totalChange": -21.19
+    },
+    "receiveSparkLine": {
+        "data": [],
+        "totalChange": -32.1
+    },
+    "chaosEquivalent": 1100,
+    "lowConfidencePaySparkLine": {
+        "data": [],
+        "totalChange": -28.83
+    },
+    "lowConfidenceReceiveSparkLine": {
+        "data": [],
+        "totalChange": -32.1
+    },
+    "detailsId": "voidborn-reliquary-key"
+},
 ]
 "currencyDetails": [
-    {"id": 22,
-    "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lEdXBsaWNhdGUiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/7111e35254/CurrencyDuplicate.png",
-    "name": "Mirror of Kalandra",
-    "tradeId": "mirror"},
+    {
+        "id": 232,
+        "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvTWFwcy9Db3NtaWNDb3JlU3VwcG9ydGVyVmF1bHRLZXkiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/16d2e6b54d/CosmicCoreSupporterVaultKey.png",
+        "name": "Voidborn Reliquary Key",
+        "tradeId": "voidborn-reliquary-key"
+    },
 ]
 ```
 
