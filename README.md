@@ -41,6 +41,7 @@ Hi! I compiled **poe.ninja API** to use in projects
 - `pay_currency_id - get_currency_id`: Currency Id
 - `get_currency_id - pay_currency_id`: Chaos Id
 - `detailsId`: Unique Name
+- `icon`: Png Photo
 
 ```json
 "lines": [
@@ -107,6 +108,7 @@ Hi! I compiled **poe.ninja API** to use in projects
 - `pay_currency_id - get_currency_id`: Fragment Id
 - `get_currency_id - pay_currency_id`: Chaos Id
 - `detailsId`: Unique Name
+- `icon`: Png Photo
 
 ```json
 "lines": [
@@ -156,6 +158,47 @@ Hi! I compiled **poe.ninja API** to use in projects
 ```
 
 # Oils
+
+- `https://poe.ninja/api/data/itemoverview?league=LEAGUE-NAME&type=Oil`
+- LEAGUE-NAME: `Write League Names`
+- `pay_currency_id - get_currency_id`: Oils Id
+- `get_currency_id - pay_currency_id`: Chaos Id
+- `detailsId`: Unique Name
+- `icon`: Png Photo
+- `chaosValue`: Chaos Value
+- `exaltedValue`: Exalted Value
+- `divineValue`: Divine Value
+- `id`: Unique Item Id
+
+```json
+"lines": [
+    {
+        "id": 22607,
+        "name": "Golden Oil",
+        "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvT2lscy9Hb2xkZW5PaWwiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/69094a06e9/GoldenOil.png",
+        "baseType": "Golden Oil",
+        "stackSize": 10,
+        "itemClass": 5,
+        "sparkline": {
+            "data": [],
+            "totalChange": -1.67
+        },
+        "lowConfidenceSparkline": {
+            "data": [],
+            "totalChange": -1.67
+        },
+        "implicitModifiers": [],
+        "explicitModifiers": [],
+        "flavourText": "",
+        "chaosValue": 59,
+        "exaltedValue": 2.42,
+        "divineValue": 0.23,
+        "count": 99,
+        "detailsId": "golden-oil",
+        "listingCount": 1997
+    },
+]
+```
 
 # Incubators
 
