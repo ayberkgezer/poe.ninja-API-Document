@@ -4,8 +4,8 @@ Hi! I compiled **poe.ninja API** to use in projects
 
 ### Active League Names
 
-- Sanctum
-- Standart
+- `Sanctum`
+- `Standart`
 
 ## Tables
 
@@ -161,13 +161,11 @@ Hi! I compiled **poe.ninja API** to use in projects
 
 - `https://poe.ninja/api/data/itemoverview?league=LEAGUE-NAME&type=Oil`
 - LEAGUE-NAME: `Write League Names`
-- `pay_currency_id - get_currency_id`: Oils Id
-- `get_currency_id - pay_currency_id`: Chaos Id
 - `detailsId`: Unique Name
 - `icon`: Png Photo
-- `chaosValue`: Chaos Value
-- `exaltedValue`: Exalted Value
-- `divineValue`: Divine Value
+- `chaosValue`: Chaos Price
+- `exaltedValue`: Exalted Price
+- `divineValue`: Divine Price
 - `id`: Unique Item Id
 
 ```json
