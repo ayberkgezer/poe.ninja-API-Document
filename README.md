@@ -200,11 +200,178 @@ Hi! I compiled **poe.ninja API** to use in projects
 
 # Incubators
 
+- `https://poe.ninja/api/data/itemoverview?league=LEAGUE-NAME&type=Incubator`
+- LEAGUE-NAME: `Write League Names`
+- `detailsId`: Unique Name
+- `icon`: Png Photo
+- `chaosValue`: Chaos Price
+- `exaltedValue`: Exalted Price
+- `divineValue`: Divine Price
+- `id`: Unique Item Id
+
+```json
+"lines": [
+    {
+        "id": 21676,
+        "name": "Whispering Incubator",
+        "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvSW5jdWJhdGlvbi9JbmN1YmF0aW9uRXNzZW5jZSIsInciOjEsImgiOjEsInNjYWxlIjoxfV0/4a659194f8/IncubationEssence.png",
+        "stackSize": 10,
+        "itemClass": 5,
+        "sparkline": {
+            "data": [],
+            "totalChange": 0
+        },
+        "lowConfidenceSparkline": {
+            "data": [],
+            "totalChange": -4.6
+        },
+        "implicitModifiers": [],
+        "explicitModifiers": [
+            {
+                "text": "Adds an incubated Essence item to an equippable item\nItem drops after killing (2495-2685) monsters",
+                "optional": false
+            }
+        ],
+        "flavourText": "",
+        "chaosValue": 249.02,
+        "exaltedValue": 10.7,
+        "divineValue": 1,
+        "count": 1,
+        "detailsId": "whispering-incubator",
+        "listingCount": 2
+    },
+]
+```
+
 # Scarabs
+
+- `https://poe.ninja/api/data/itemoverview?league=LEAGUE-NAME&type=Scarab`
+- LEAGUE-NAME: `Write League Names`
+- `detailsId`: Unique Name
+- `icon`: Png Photo
+- `chaosValue`: Chaos Price
+- `exaltedValue`: Exalted Price
+- `divineValue`: Divine Price
+- `id`: Unique Item Id
+
+```json
+"lines": [
+    {
+        "id": 42606,
+        "name": "Winged Divination Scarab",
+        "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvU2NhcmFicy9UaWVyNFNjYXJhYkRpdmluYXRpb24iLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/e6539f578d/Tier4ScarabDivination.png",
+        "stackSize": 10,
+        "itemClass": 0,
+        "sparkline": {
+            "data": [],
+            "totalChange": -3.99
+        },
+        "lowConfidenceSparkline": {
+            "data": [],
+            "totalChange": -3.99
+        },
+        "implicitModifiers": [],
+        "explicitModifiers": [
+            {
+                "text": "250% more Divination Cards found in Area",
+                "optional": false
+            }
+        ],
+        "flavourText": "Hinekora has sent the world another herald, but this hatungo walks another path.\nWe are left blinded, and subject to the vagaries of Fate.",
+        "chaosValue": 35.61,
+        "exaltedValue": 1.5,
+        "divineValue": 0.14,
+        "count": 99,
+        "detailsId": "winged-divination-scarab",
+        "listingCount": 3248
+    },
+]
+```
 
 # Fossils
 
+- `https://poe.ninja/api/data/itemoverview?league=LEAGUE-NAME&type=Fossil`
+- LEAGUE-NAME: `Write League Names`
+- `detailsId`: Unique Name
+- `icon`: Png Photo
+- `chaosValue`: Chaos Price
+- `exaltedValue`: Exalted Price
+- `divineValue`: Divine Price
+- `id`: Unique Item Id
+
+```json
+"lines": [
+    {
+        "id": 7666,
+        "name": "Glyphic Fossil",
+        "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRGVsdmUvR2x5cGhpY0Zvc3NpbCIsInciOjEsImgiOjEsInNjYWxlIjoxfV0/f5b3c6edf7/GlyphicFossil.png",
+        "stackSize": 10,
+        "itemClass": 5,
+        "sparkline": {
+            "data": [],
+            "totalChange": -1.8
+        },
+        "lowConfidenceSparkline": {
+            "data": [],
+            "totalChange": -1.8
+        },
+        "implicitModifiers": [],
+        "explicitModifiers": [
+            {
+                "text": "Has a Corrupt Essence modifier",
+                "optional": false
+            }
+        ],
+        "flavourText": "",
+        "chaosValue": 98.2,
+        "exaltedValue": 4.48,
+        "divineValue": 0.4,
+        "count": 99,
+        "detailsId": "glyphic-fossil",
+        "listingCount": 1678
+},
+]
+```
+
 # Resonators
+
+- `https://poe.ninja/api/data/itemoverview?league=LEAGUE-NAME&type=Resanator`
+- LEAGUE-NAME: `Write League Names`
+- `detailsId`: Unique Name
+- `icon`: Png Photo
+- `chaosValue`: Chaos Price
+- `exaltedValue`: Exalted Price
+- `divineValue`: Divine Price
+- `id`: Unique Item Id
+
+```json
+"lines": [
+    {
+        "id": 7662,
+        "name": "Prime Chaotic Resonator",
+        "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRGVsdmUvUmVyb2xsMngyQyIsInciOjIsImgiOjIsInNjYWxlIjoxfV0/584267701b/Reroll2x2C.png",
+        "stackSize": 10,
+        "itemClass": 5,
+        "sparkline": {
+            "data": [],
+            "totalChange": 0
+        },
+        "lowConfidenceSparkline": {
+            "data": [],
+            "totalChange": 0
+        },
+        "implicitModifiers": [],
+        "explicitModifiers": [],
+        "flavourText": "",
+        "chaosValue": 33,
+        "exaltedValue": 1.51,
+        "divineValue": 0.13,
+        "count": 99,
+        "detailsId": "prime-chaotic-resonator",
+        "listingCount": 4426
+    },
+]
+```
 
 # Essences
 
