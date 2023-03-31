@@ -5,7 +5,7 @@ Hi! I compiled **poe.ninja API** to use in projects
 ### Active League Names
 
 - `Sanctum`
-- `Standart`
+- `Standard`
 
 ## Tables
 
@@ -375,15 +375,312 @@ Hi! I compiled **poe.ninja API** to use in projects
 
 # Essences
 
+- `https://poe.ninja/api/data/itemoverview?league=LEAGUE-NAME&type=Essence`
+- LEAGUE-NAME: `Write League Names`
+- `detailsId`: Unique Name
+- `icon`: Png Photo
+- `chaosValue`: Chaos Price
+- `exaltedValue`: Exalted Price
+- `divineValue`: Divine Price
+- `id`: Unique Item Id
+
+```json
+"lines": [
+    {
+        "id": 494,
+        "name": "Essence of Horror",
+        "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9Ib3Jyb3IxIiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/748d594bde/Horror1.png",
+        "mapTier": 8,
+        "baseType": "Essence of Horror",
+        "stackSize": 9,
+        "itemClass": 5,
+        "sparkline": {},
+        "lowConfidenceSparkline": {},
+        "implicitModifiers": [],
+        "explicitModifiers": [
+            {
+                "text": "Upgrades a normal item to rare or reforges a rare item, guaranteeing one property",
+                "optional": false
+            },
+            {
+                "text": "",
+                "optional": false
+            },
+            {
+                "text": "Weapon: 16% chance to gain a Power, Frenzy or Endurance Charge on Kill",
+                "optional": false
+            },
+            {
+                "text": "Gloves: Socketed Gems have +3.5% Critical Strike Chance",
+                "optional": false
+            },
+            {
+                "text": "Boots: 5% reduced Elemental Damage Taken while stationary",
+                "optional": false
+            },
+            {
+                "text": "Body Armour: 15% of Physical Damage from Hits taken as Cold Damage",
+                "optional": false
+            },
+            {
+                "text": "Helmet: Socketed Gems deal 30% more Elemental Damage",
+                "optional": false
+            },
+            {
+                "text": "Shield: Chill Nearby Enemies when you Block",
+                "optional": false
+            },
+            {
+                "text": "Quiver: 8 to 12 Added Cold Damage per Frenzy Charge",
+                "optional": false
+            },
+            {
+                "text": "Amulet: (15-25)% chance to Crush on Hit",
+                "optional": false
+            },
+            {
+                "text": "Ring: 4 to 7 Added Cold Damage per Frenzy Charge",
+                "optional": false
+            },
+            {
+                "text": "Belt: Gain Alchemist's Genius when you use a Flask",
+                "optional": false
+            }
+        ],
+        "flavourText": "",
+        "chaosValue": 35,
+        "exaltedValue": 1.56,
+        "divineValue": 0.14,
+        "count": 99,
+        "detailsId": "essence-of-horror",
+        "listingCount": 5237
+    },
+]
+```
+
 # Divination Cards
+
+- `https://poe.ninja/api/data/itemoverview?league=LEAGUE-NAME&type=DivinationCard`
+- LEAGUE-NAME: `Write League Names`
+- `detailsId`: Unique Name
+- `icon`: Png Photo
+- `chaosValue`: Chaos Price
+- `exaltedValue`: Exalted Price
+- `divineValue`: Divine Price
+- `id`: Unique Item Id
+
+```json
+"lines": [
+    {
+        "id": 636,
+        "name": "House of Mirrors",
+        "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvRGl2aW5hdGlvbi9JbnZlbnRvcnlJY29uIiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/f34bf8cbb5/InventoryIcon.png",
+        "stackSize": 9,
+        "artFilename": "HouseOfMirrors",
+        "itemClass": 6,
+        "sparkline": {
+            "data": [],
+            "totalChange": -7.62
+        },
+        "lowConfidenceSparkline": {
+            "data": [],
+            "totalChange": -7.62
+        },
+        "implicitModifiers": [],
+        "explicitModifiers": [
+            {
+                "text": "<currencyitem>{Mirror of Kalandra}",
+                "optional": false
+            }
+        ],
+        "flavourText": "What do you see in the mirror?",
+        "chaosValue": 18567,
+        "exaltedValue": 822.64,
+        "divineValue": 75,
+        "count": 44,
+        "detailsId": "house-of-mirrors",
+        "listingCount": 119
+    },
+]
+```
 
 # Prophecies
 
+- `https://poe.ninja/api/data/itemoverview?league=LEAGUE-NAME&type=Prophecy`
+- LEAGUE-NAME: `Write League Names`
+- `detailsId`: Unique Name
+- `icon`: Png Photo
+- `chaosValue`: Chaos Price
+- `exaltedValue`: Exalted Price
+- `divineValue`: Divine Price
+- `id`: Unique Item Id
+
+```json
+"lines": [
+    {
+        "id": 636,
+        "name": "House of Mirrors",
+        "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvRGl2aW5hdGlvbi9JbnZlbnRvcnlJY29uIiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/f34bf8cbb5/InventoryIcon.png",
+        "stackSize": 9,
+        "artFilename": "HouseOfMirrors",
+        "itemClass": 6,
+        "sparkline": {
+            "data": [],
+            "totalChange": -7.62
+        },
+        "lowConfidenceSparkline": {
+            "data": [],
+            "totalChange": -7.62
+        },
+        "implicitModifiers": [],
+        "explicitModifiers": [
+            {
+                "text": "<currencyitem>{Mirror of Kalandra}",
+                "optional": false
+            }
+        ],
+        "flavourText": "What do you see in the mirror?",
+        "chaosValue": 18567,
+        "exaltedValue": 822.64,
+        "divineValue": 75,
+        "count": 44,
+        "detailsId": "house-of-mirrors",
+        "listingCount": 119
+    },
+]
+```
+
 # Skill Gems
+
+- `https://poe.ninja/api/data/itemoverview?league=LEAGUE-NAME&type=SkillGem`
+- LEAGUE-NAME: `Write League Names`
+- `detailsId`: Unique Name
+- `icon`: Png Photo
+- `chaosValue`: Chaos Price
+- `exaltedValue`: Exalted Price
+- `divineValue`: Divine Price
+- `id`: Unique Item Id
+
+```json
+"lines": [
+    {
+        "id":96363,
+        "name":"Awakened Enlighten Support",
+        "icon":"https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9TdXBwb3J0L1N1cHBvcnRQbHVzL0VubGlnaHRlbnBsdXMiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/7ec7d0544d/Enlightenplus.png",
+        "levelRequired":80,
+        "variant":"5/20c",
+        "itemClass":4,
+        "sparkline":{"data":[],"totalChange":-2.35},
+        "lowConfidenceSparkline":{
+            "data":[],
+            "totalChange":-2.35
+        },
+        "implicitModifiers":[],
+        "explicitModifiers":[
+            {
+                "text":"This Gem gains (95-110)% increased Experience",
+                "optional":false
+            }
+        ],
+        "flavourText":"",
+        "corrupted":true,
+        "gemLevel":5,
+        "gemQuality":20,
+        "chaosValue":104767.39,
+        "exaltedValue":4641.89,
+        "divineValue":423.20,
+        "count":5,
+        "detailsId":"awakened-enlighten-support-5-20c",
+        "listingCount":11
+    },
+]
+```
 
 # Base Types
 
+- `https://poe.ninja/api/data/itemoverview?league=LEAGUE-NAME&type=BaseType`
+- LEAGUE-NAME: `Write League Names`
+- `detailsId`: Unique Name
+- `icon`: Png Photo
+- `chaosValue`: Chaos Price
+- `exaltedValue`: Exalted Price
+- `divineValue`: Divine Price
+- `id`: Unique Item Id
+
+```json
+"lines": [
+    {
+        "id":101178,
+        "name":"Accumulator Wand",
+        "icon":"https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvV2VhcG9ucy9PbmVIYW5kV2VhcG9ucy9XYW5kcy9IZWlzdFdhbmQiLCJ3IjoxLCJoIjozLCJzY2FsZSI6MX1d/4499b00066/HeistWand.png",
+        "levelRequired":86,
+        "baseType":"Accumulator Wand",
+        "variant":"Shaper/Elder",
+        "itemClass":2,
+        "sparkline":{"data":[],"totalChange":0},
+        "lowConfidenceSparkline":{
+            "data":[],
+            "totalChange":159134.70
+        },
+        "implicitModifiers":[],
+        "explicitModifiers":[],
+        "flavourText":"",
+        "itemType":"Wand",
+        "chaosValue":274791.32,
+        "exaltedValue":12175.07,
+        "divineValue":1110.00,
+        "count":1,
+        "detailsId":"accumulator-wand-86-shaper-elder",
+        "listingCount":6
+    },
+]
+```
+
 # Helmet Enchants
+
+- `https://poe.ninja/api/data/itemoverview?league=LEAGUE-NAME&type=HelmetEnchant`
+- LEAGUE-NAME: `Write League Names`
+- `detailsId`: Unique Name
+- `icon`: Png Photo
+- `chaosValue`: Chaos Price
+- `exaltedValue`: Exalted Price
+- `divineValue`: Divine Price
+- `id`: Unique Item Id
+
+```json
+"lines": [
+    {
+        "id": 6097,
+        "name": "Tornado Shot fires an additional secondary Projectile",
+        "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9Ub3JuYWRvU2hvdCIsInciOjEsImgiOjEsInNjYWxlIjoxfV0/7299d3edf8/TornadoShot.png",
+        "variant": "0",
+        "itemClass": 0,
+        "sparkline": {
+            "data": [],
+            "totalChange": 89.01
+        },
+        "lowConfidenceSparkline": {
+            "data": [],
+            "totalChange": 89.01
+        },
+        "implicitModifiers": [],
+        "explicitModifiers": [],
+        "chaosValue": 495.12,
+        "exaltedValue": 21.94,
+        "divineValue": 2,
+        "count": 99,
+        "detailsId": "tornado-shot-fires-an-additional-secondary-projectile-0",
+        "tradeInfo": [
+            {
+                "mod": "enchant.stat_1580810115",
+                "min": 1,
+                "max": 1
+            }
+        ],
+        "listingCount": 1544
+    },
+]
+```
 
 # Unique Maps
 
