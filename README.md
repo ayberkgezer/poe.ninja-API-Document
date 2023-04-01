@@ -684,16 +684,464 @@ Hi! I compiled **poe.ninja API** to use in projects
 
 # Unique Maps
 
+- `https://poe.ninja/api/data/itemoverview?league=LEAGUE-NAME&type=UniqueMap`
+- LEAGUE-NAME: `Write League Names`
+- `detailsId`: Unique Name
+- `icon`: Png Photo
+- `chaosValue`: Chaos Price
+- `exaltedValue`: Exalted Price
+- `divineValue`: Divine Price
+- `id`: Unique Item Id
+
+```json
+"lines": [
+    {
+        "id": 41117,
+        "name": "Doryani's Machinarium",
+        "icon": "https://web.poecdn.com/gen/image/WzI4LDE0LHsiZiI6IjJESXRlbXMvTWFwcy9Eb3J5YW5pcyIsInciOjEsImgiOjEsInNjYWxlIjoxfV0/581444be53/Doryanis.png",
+        "mapTier": 14,
+        "baseType": "Maze Map",
+        "itemClass": 3,
+        "sparkline": {
+            "data": [],
+            "totalChange": 19.1
+        },
+        "lowConfidenceSparkline": {
+            "data": [],
+            "totalChange": 19.1
+        },
+        "implicitModifiers": [],
+        "explicitModifiers": [
+            {
+                "text": "(20-50)% increased Experience gain",
+                "optional": false
+            },
+            {
+                "text": "Found Items have 10% chance to drop Corrupted in Area",
+                "optional": false
+            },
+            {
+                "text": "Unique Boss is augmented by Player choices",
+                "optional": false
+            }
+        ],
+        "flavourText": "We are ever the makers of our own undoing.",
+        "chaosValue": 3309.8,
+        "exaltedValue": 147.04,
+        "divineValue": 13.4,
+        "count": 5,
+        "detailsId": "doryanis-machinarium-t14",
+        "listingCount": 32
+    },
+]
+```
+
 # Maps
+
+- `https://poe.ninja/api/data/itemoverview?type=Map&league=LEAGUE-NAME`
+- LEAGUE-NAME: `Write League Names`
+- `detailsId`: Unique Name
+- `icon`: Png Photo
+- `chaosValue`: Chaos Price
+- `exaltedValue`: Exalted Price
+- `divineValue`: Divine Price
+- `id`: Unique Item Id
+
+```json
+"lines": [
+    {
+        "id": 100355,
+        "name": "Maze of the Minotaur Map",
+        "icon": "https://web.poecdn.com/gen/image/WzI4LDE0LHsiZiI6IjJESXRlbXMvTWFwcy9BdGxhczJNYXBzL05ldy9NaW5vdGF1ciIsInciOjEsImgiOjEsInNjYWxlIjoxLCJtbiI6MTYsIm10IjowLCJtaSI6MX1d/9a58b4bdae/Minotaur.png",
+        "mapTier": 16,
+        "baseType": "Maze of the Minotaur Map",
+        "variant": ", Gen-16",
+        "itemClass": 2,
+        "sparkline": {
+            "data": [],
+            "totalChange": 25
+        },
+        "lowConfidenceSparkline": {
+            "data": [],
+            "totalChange": 25
+        },
+        "implicitModifiers": [],
+        "explicitModifiers": [],
+        "flavourText": "",
+        "chaosValue": 15,
+        "exaltedValue": 0.67,
+        "divineValue": 0.06,
+        "count": 99,
+        "detailsId": "maze-of-the-minotaur-map-t16-gen-16",
+        "listingCount": 9101
+    },
+]
+```
 
 # Unique Jewels
 
+- `https://poe.ninja/api/data/itemoverview?league=LEAGUE-NAME&type=UniqueJewel`
+- LEAGUE-NAME: `Write League Names`
+- `detailsId`: Unique Name
+- `icon`: Png Photo
+- `chaosValue`: Chaos Price
+- `exaltedValue`: Exalted Price
+- `divineValue`: Divine Price
+- `id`: Unique Item Id
+
+```json
+"lines": [
+    {
+        "id": 40773,
+        "name": "Voices",
+        "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvSmV3ZWxzL1VuaXF1ZUpld2VsQmFzZTMiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/314c9905c8/UniqueJewelBase3.png",
+        "baseType": "Large Cluster Jewel",
+        "itemClass": 3,
+        "sparkline": {
+            "data": [],
+            "totalChange": 5.47
+        },
+        "lowConfidenceSparkline": {
+            "data": [],
+            "totalChange": 5.47
+        },
+        "implicitModifiers": [],
+        "explicitModifiers": [],
+        "flavourText": "Only a madman would ignore a god's instructions.",
+        "chaosValue": 96330,
+        "exaltedValue": 4279.43,
+        "divineValue": 390,
+        "count": 22,
+        "detailsId": "voices-large-cluster-jewel",
+        "listingCount": 67
+    },
+]
+```
+
 # Unique Flasks
+
+- `https://poe.ninja/api/data/itemoverview?league=LEAGUE-NAME&type=UniqueFlask`
+- LEAGUE-NAME: `Write League Names`
+- `detailsId`: Unique Name
+- `icon`: Png Photo
+- `chaosValue`: Chaos Price
+- `exaltedValue`: Exalted Price
+- `divineValue`: Divine Price
+- `id`: Unique Item Id
+
+```json
+"lines": [
+    {
+        "id": 101729,
+        "name": "Progenesis",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvVWJlck1hdmVuRmxhc2siLCJ3IjoxLCJoIjoyLCJzY2FsZSI6MSwibGV2ZWwiOjEsInJlbGljIjowfV0/ac476ad3d0/UberMavenFlask.png",
+        "levelRequired": 60,
+        "baseType": "Amethyst Flask",
+        "itemClass": 9,
+        "sparkline": {
+            "data": [],
+            "totalChange": 169.37
+        },
+        "lowConfidenceSparkline": {
+            "data": [],
+            "totalChange": 149.62
+        },
+        "implicitModifiers": [],
+        "explicitModifiers": [
+            {
+                "text": "(10-20)% reduced Charges per use",
+                "optional": false
+            },
+            {
+                "text": "(1-35)% reduced Duration",
+                "optional": true
+            },
+            {
+                "text": "(1-35)% increased Duration",
+                "optional": true
+            },
+            {
+                "text": "When Hit during effect, 25% of Life loss from Damage taken occurs over 4 seconds instead",
+                "optional": false
+            }
+        ],
+        "flavourText": "They were bred in a cosmic ocean of raw creation.\nFeasting and drinking of the milk of the mother,\nthey fought to the death for every last drop.",
+        "chaosValue": 32110,
+        "exaltedValue": 1426.48,
+        "divineValue": 130,
+        "count": 4,
+        "detailsId": "progenesis-relic",
+        "listingCount": 30
+    },
+]
+```
 
 # Unique Weapons
 
+- `https://poe.ninja/api/data/itemoverview?league=LEAGUE-NAME&type=UniqueWeapon`
+- LEAGUE-NAME: `Write League Names`
+- `detailsId`: Unique Name
+- `icon`: Png Photo
+- `chaosValue`: Chaos Price
+- `exaltedValue`: Exalted Price
+- `divineValue`: Divine Price
+- `id`: Unique Item Id
+
+```json
+"lines": [
+    {
+        "id": 99868,
+        "name": "Voidforge",
+        "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvV2VhcG9ucy9Ud29IYW5kV2VhcG9ucy9Ud29IYW5kU3dvcmRzL1N0YXJmb3JnZSIsInciOjIsImgiOjQsInNjYWxlIjoxLCJyZWxpYyI6MH1d/1a41d46a59/Starforge.png",
+        "levelRequired": 67,
+        "baseType": "Infernal Sword",
+        "links": 6,
+        "itemClass": 9,
+        "sparkline": {
+            "data": [],
+            "totalChange": 0
+        },
+        "lowConfidenceSparkline": {
+            "data": [],
+            "totalChange": -0.21
+        },
+        "implicitModifiers": [
+            {
+                "text": "30% increased Elemental Damage with Attack Skills",
+                "optional": false
+            }
+        ],
+        "explicitModifiers": [
+            {
+                "text": "6% increased Attack Speed",
+                "optional": false
+            },
+            {
+                "text": "+(91-92) to maximum Life",
+                "optional": false
+            },
+            {
+                "text": "Your Elemental Damage can Shock",
+                "optional": false
+            },
+            {
+                "text": "Gain 700% of Weapon Physical Damage as Extra Damage of a random Element",
+                "optional": false
+            },
+            {
+                "text": "20% increased Area of Effect for Attacks",
+                "optional": false
+            },
+            {
+                "text": "Deal no Non-Elemental Damage",
+                "optional": false
+            }
+        ],
+        "flavourText": "A weapon born of nothingness,\ncan only create more nothingness.",
+        "itemType": "Two Handed Sword",
+        "chaosValue": 137105.86,
+        "exaltedValue": 6090.89,
+        "divineValue": 555.08,
+        "count": 1,
+        "detailsId": "voidforge-infernal-sword-relic-6l",
+        "listingCount": 2
+    },
+]
+```
+
 # Unique Armours
+
+- `https://poe.ninja/api/data/itemoverview?league=LEAGUE-NAME&type=UniqueArmour`
+- LEAGUE-NAME: `Write League Names`
+- `detailsId`: Unique Name
+- `icon`: Png Photo
+- `chaosValue`: Chaos Price
+- `exaltedValue`: Exalted Price
+- `divineValue`: Divine Price
+- `id`: Unique Item Id
+
+```json
+"lines": [
+    {
+        "id": 99487,
+        "name": "The Eternity Shroud",
+        "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9Cb2R5QXJtb3Vycy9NYW50bGVPZkRpc21hbnRsaW5nIiwidyI6MiwiaCI6Mywic2NhbGUiOjEsInJlbGljIjowfV0/0a567446fc/MantleOfDismantling.png",
+        "levelRequired": 65,
+        "baseType": "Blood Raiment",
+        "links": 6,
+        "itemClass": 9,
+        "sparkline": {
+            "data": [],
+            "totalChange": 0
+        },
+        "lowConfidenceSparkline": {
+            "data": [],
+            "totalChange": -4.14
+        },
+        "implicitModifiers": [],
+        "explicitModifiers": [
+            {
+                "text": "Trigger Level 20 Glimpse of Eternity when Hit",
+                "optional": false
+            },
+            {
+                "text": "(105-146)% increased Evasion and Energy Shield",
+                "optional": false
+            },
+            {
+                "text": "+(84-96) to maximum Life",
+                "optional": false
+            },
+            {
+                "text": "+(19-23)% to Chaos Resistance",
+                "optional": false
+            },
+            {
+                "text": "Gain (4-5)% of Elemental Damage as Extra Chaos Damage per Shaper Item Equipped",
+                "optional": false
+            },
+            {
+                "text": "Hits ignore Enemy Monster Chaos Resistance if all Equipped Items are Shaper Items",
+                "optional": false
+            }
+        ],
+        "flavourText": "There can be no defence against the celestial siblings entropy and time.",
+        "itemType": "Body Armour",
+        "chaosValue": 274211.72,
+        "exaltedValue": 12181.77,
+        "divineValue": 1110.17,
+        "count": 1,
+        "detailsId": "the-eternity-shroud-blood-raiment-relic-6l",
+        "listingCount": 2
+    },
+]
+```
 
 # Unique Accessories
 
+- `https://poe.ninja/api/data/itemoverview?league=LEAGUE-NAME&type=UniqueAccessory`
+- LEAGUE-NAME: `Write League Names`
+- `detailsId`: Unique Name
+- `icon`: Png Photo
+- `chaosValue`: Chaos Price
+- `exaltedValue`: Exalted Price
+- `divineValue`: Divine Price
+- `id`: Unique Item Id
+
+```json
+"lines": [
+    {
+        "id": 102267,
+        "name": "Impresence",
+        "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQW11bGV0cy9FbGRlclBoeXNpY2FsIiwidyI6MSwiaCI6MSwic2NhbGUiOjEsInJlbGljIjowfV0/6205114f81/ElderPhysical.png",
+        "levelRequired": 64,
+        "baseType": "Onyx Amulet",
+        "variant": "Physical",
+        "itemClass": 9,
+        "sparkline": {
+            "data": [],
+            "totalChange": 0
+        },
+        "lowConfidenceSparkline": {
+            "data": [],
+            "totalChange": -4.14
+        },
+        "implicitModifiers": [
+            {
+                "text": "+(10-16) to all Attributes",
+                "optional": false
+            }
+        ],
+        "explicitModifiers": [
+            {
+                "text": "Adds (12-16) to (21-25) Physical Damage",
+                "optional": false
+            },
+            {
+                "text": "+(417-499) to Armour",
+                "optional": false
+            },
+            {
+                "text": "+(51-61) to maximum Life",
+                "optional": false
+            },
+            {
+                "text": "(30-39)% increased Stun and Block Recovery",
+                "optional": false
+            },
+            {
+                "text": "Punishment has no Reservation if Cast as an Aura",
+                "optional": true
+            },
+            {
+                "text": "Elemental Weakness has no Reservation if Cast as an Aura",
+                "optional": true
+            },
+            {
+                "text": "Enfeeble has no Reservation if Cast as an Aura",
+                "optional": true
+            },
+            {
+                "text": "Temporal Chains has no Reservation if Cast as an Aura",
+                "optional": true
+            },
+            {
+                "text": "Vulnerability has no Reservation if Cast as an Aura",
+                "optional": false
+            },
+            {
+                "text": "Gain Maddening Presence for 10 seconds when you Kill a Rare or Unique Enemy",
+                "optional": false
+            }
+        ],
+        "flavourText": "There is no darker void than the hollow\nache of love disremembered...",
+        "itemType": "Amulet",
+        "chaosValue": 274211.72,
+        "exaltedValue": 12181.77,
+        "divineValue": 1110.17,
+        "count": 1,
+        "detailsId": "impresence-physical-onyx-amulet-relic",
+        "listingCount": 3
+    },
+]
+```
+
 # Beasts
+
+- `https://poe.ninja/api/data/itemoverview?league=LEAGUE-NAME&type=Beast`
+- LEAGUE-NAME: `Write League Names`
+- `detailsId`: Unique Name
+- `icon`: Png Photo
+- `chaosValue`: Chaos Price
+- `exaltedValue`: Exalted Price
+- `divineValue`: Divine Price
+- `id`: Unique Item Id
+
+```json
+"lines": [
+    {
+        "id": 20253,
+        "name": "Barrow Ape",
+        "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQmVzdGlhcnlPcmJGdWxsIiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/3214b44360/BestiaryOrbFull.png",
+        "baseType": "Apes|Primates|The Wilds",
+        "itemClass": 2,
+        "sparkline": {
+            "data": [],
+            "totalChange": 54.55
+        },
+        "lowConfidenceSparkline": {
+            "data": [],
+            "totalChange": 125645.45
+        },
+        "implicitModifiers": [],
+        "explicitModifiers": [],
+        "flavourText": "",
+        "chaosValue": 5532.8,
+        "exaltedValue": 245.79,
+        "divineValue": 22.4,
+        "count": 2,
+        "detailsId": "barrow-ape",
+        "listingCount": 146
+    },
+]
+```
