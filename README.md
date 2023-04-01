@@ -20,7 +20,6 @@ Hi! I compiled **poe.ninja API** to use in projects
 | [Resonators ](https://github.com/ayberkgezer/poe.ninja-API-Document#resonators)                 | https://poe.ninja/api/data/itemoverview?league=LEAGUE-NAME&type=Resonator       |
 | [Essences ](https://github.com/ayberkgezer/poe.ninja-API-Document#essences)                     | https://poe.ninja/api/data/itemoverview?league=LEAGUE-NAME&type=Essence         |
 | [Divination Cards ](https://github.com/ayberkgezer/poe.ninja-API-Document#divination-cards)     | https://poe.ninja/api/data/itemoverview?league=LEAGUE-NAME&type=DivinationCard  |
-| [Prophecies ](https://github.com/ayberkgezer/poe.ninja-API-Document#prophecies)                 | https://poe.ninja/api/data/itemoverview?league=LEAGUE-NAME&type=Prophecy        |
 | [Skill Gems ](https://github.com/ayberkgezer/poe.ninja-API-Document#skill-gems)                 | https://poe.ninja/api/data/itemoverview?league=LEAGUE-NAME&type=SkillGem        |
 | [Base Types ](https://github.com/ayberkgezer/poe.ninja-API-Document#base-types)                 | https://poe.ninja/api/data/itemoverview?league=LEAGUE-NAME&type=BaseType        |
 | [Helmet Enchants ](https://github.com/ayberkgezer/poe.ninja-API-Document#helmet-enchants)       | https://poe.ninja/api/data/itemoverview?league=LEAGUE-NAME&type=HelmetEnchant   |
@@ -36,7 +35,7 @@ Hi! I compiled **poe.ninja API** to use in projects
 # Currency
 
 - `https://poe.ninja/api/data/currencyoverview?league=LEAGUE-NAME&type=Currency`
-- LEAGUE-NAME: `Write League Names`
+- `LEAGUE-NAME`: Write League Names
 - `chaosEquivalent`: Chaos Value
 - `pay_currency_id - get_currency_id`: Currency Id
 - `get_currency_id - pay_currency_id`: Chaos Id
@@ -103,7 +102,7 @@ Hi! I compiled **poe.ninja API** to use in projects
 # Fragment
 
 - `https://poe.ninja/api/data/currencyoverview?league=LEAGUE-NAME&type=Fragment`
-- LEAGUE-NAME: `Write League Names`
+- `LEAGUE-NAME`: Write League Names
 - `chaosEquivalent`: Chaos Value
 - `pay_currency_id - get_currency_id`: Fragment Id
 - `get_currency_id - pay_currency_id`: Chaos Id
@@ -461,52 +460,6 @@ Hi! I compiled **poe.ninja API** to use in projects
 # Divination Cards
 
 - `https://poe.ninja/api/data/itemoverview?league=LEAGUE-NAME&type=DivinationCard`
-- LEAGUE-NAME: `Write League Names`
-- `detailsId`: Unique Name
-- `icon`: Png Photo
-- `chaosValue`: Chaos Price
-- `exaltedValue`: Exalted Price
-- `divineValue`: Divine Price
-- `id`: Unique Item Id
-
-```json
-"lines": [
-    {
-        "id": 636,
-        "name": "House of Mirrors",
-        "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvRGl2aW5hdGlvbi9JbnZlbnRvcnlJY29uIiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/f34bf8cbb5/InventoryIcon.png",
-        "stackSize": 9,
-        "artFilename": "HouseOfMirrors",
-        "itemClass": 6,
-        "sparkline": {
-            "data": [],
-            "totalChange": -7.62
-        },
-        "lowConfidenceSparkline": {
-            "data": [],
-            "totalChange": -7.62
-        },
-        "implicitModifiers": [],
-        "explicitModifiers": [
-            {
-                "text": "<currencyitem>{Mirror of Kalandra}",
-                "optional": false
-            }
-        ],
-        "flavourText": "What do you see in the mirror?",
-        "chaosValue": 18567,
-        "exaltedValue": 822.64,
-        "divineValue": 75,
-        "count": 44,
-        "detailsId": "house-of-mirrors",
-        "listingCount": 119
-    },
-]
-```
-
-# Prophecies
-
-- `https://poe.ninja/api/data/itemoverview?league=LEAGUE-NAME&type=Prophecy`
 - LEAGUE-NAME: `Write League Names`
 - `detailsId`: Unique Name
 - `icon`: Png Photo
