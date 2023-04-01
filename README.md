@@ -6,9 +6,7 @@ Hi! I compiled **poe.ninja API** to use in projects
 
 - `Sanctum`
 - `Standard`
-- `Standard`
-- `Standard`
-- `Standard`
+- `Hardcore`
 
 ## Poe Ninja
 
@@ -59,6 +57,7 @@ There are two types of data types in the poe ninja api. One is currency overview
 | [Unique Armours ](https://github.com/ayberkgezer/poe.ninja-API-Document#unique-armours)         | https://poe.ninja/api/data/itemoverview?league=LEAGUE-NAME&type=UniqueArmour    |
 | [Unique Accessories ](https://github.com/ayberkgezer/poe.ninja-API-Document#unique-accessories) | https://poe.ninja/api/data/itemoverview?league=LEAGUE-NAME&type=UniqueAccessory |
 | [Beasts ](https://github.com/ayberkgezer/poe.ninja-API-Document#Beasts)                         | https://poe.ninja/api/data/itemoverview?league=LEAGUE-NAME&type=Beast           |
+| [Vials ](https://github.com/ayberkgezer/poe.ninja-API-Document#Vials)                           | https://poe.ninja/api/data/itemoverview?league=LEAGUE-NAME&type=Vial            |
 
 # Currency
 
@@ -1123,6 +1122,46 @@ There are two types of data types in the poe ninja api. One is currency overview
         "count": 2,
         "detailsId": "barrow-ape",
         "listingCount": 146
+    },
+]
+```
+
+# Vials
+
+- `https://poe.ninja/api/data/itemoverview?league=LEAGUE-NAME&type=Beast`
+- LEAGUE-NAME: `Write League Names`
+- `detailsId`: Unique Name
+- `icon`: Png Photo
+- `chaosValue`: Chaos Price
+- `exaltedValue`: Exalted Price
+- `divineValue`: Divine Price
+- `id`: Unique Item Id
+
+```json
+"lines": [
+    {
+        "id": 39825,
+        "name": "Vial of Sacrifice",
+        "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvVmlhbFNhY3JpZmljaWFsSGVhcnQiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/7f68150b22/VialSacrificialHeart.png",
+        "stackSize": 10,
+        "itemClass": 5,
+        "sparkline": {
+            "data": [],
+            "totalChange": 0
+        },
+        "lowConfidenceSparkline": {
+            "data": [],
+            "totalChange": 2134.76
+        },
+        "implicitModifiers": [],
+        "explicitModifiers": [],
+        "flavourText": "Festivities of blood. Bleeding hearts and screaming lungs.",
+        "chaosValue": 938.6,
+        "exaltedValue": 41.7,
+        "divineValue": 3.8,
+        "count": 2,
+        "detailsId": "vial-of-sacrifice",
+        "listingCount": 51
     },
 ]
 ```
