@@ -10,7 +10,7 @@ Hi! I compiled **poe.ninja API** to use in projects
 
 ## Poe Ninja
 
-There are two types of data types in the poe ninja api. One is currency overview and the other is itemoverview.
+There are two types of data types in the poe ninja api. One is `currencyoverview` and the other is `itemoverview`.
 
 | currencyoverview | itemoverview    |
 | ---------------- | --------------- |
