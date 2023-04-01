@@ -7,7 +7,7 @@ Hi! I compiled **poe.ninja API** to use in projects
 - `Sanctum`
 - `Standard`
 
-## Tables
+## Poe Ninja API
 
 | Category                                                                                        | API                                                                             |
 | ----------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------- |
@@ -31,6 +31,29 @@ Hi! I compiled **poe.ninja API** to use in projects
 | [Unique Armours ](https://github.com/ayberkgezer/poe.ninja-API-Document#unique-armours)         | https://poe.ninja/api/data/itemoverview?league=LEAGUE-NAME&type=UniqueArmour    |
 | [Unique Accessories ](https://github.com/ayberkgezer/poe.ninja-API-Document#unique-accessories) | https://poe.ninja/api/data/itemoverview?league=LEAGUE-NAME&type=UniqueAccessory |
 | [Beasts ](https://github.com/ayberkgezer/poe.ninja-API-Document#Beasts)                         | https://poe.ninja/api/data/itemoverview?league=LEAGUE-NAME&type=Beast           |
+
+## Poe Ninja
+
+| itemoverwiev | currency        |
+| ------------ | --------------- |
+| Currency     | Oil             |
+| Fragment     | Incubator       |
+|              | Scarab          |
+|              | Fossil          |
+|              | Resonator       |
+|              | Essence         |
+|              | DivinationCard  |
+|              | SkillGem        |
+|              | BaseType        |
+|              | HelmetEnchant   |
+|              | UniqueMap       |
+|              | Map             |
+|              | UniqueJewel     |
+|              | UniqueFlask     |
+|              | UniqueWeapon    |
+|              | UniqueArmour    |
+|              | UniqueAccessory |
+|              | Beast           |
 
 # Currency
 
