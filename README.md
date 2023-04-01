@@ -32,6 +32,7 @@ There are two types of data types in the poe ninja api. One is currency overview
 |                  | UniqueArmour    |
 |                  | UniqueAccessory |
 |                  | Beast           |
+|                  | Vials           |
 
 ## Poe Ninja API
 
