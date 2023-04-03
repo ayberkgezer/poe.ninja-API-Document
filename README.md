@@ -187,13 +187,14 @@ There are two types of data types in the poe ninja api. One is `currencyoverview
 # Oils
 
 - `https://poe.ninja/api/data/itemoverview?league=LEAGUE-NAME&type=Oil`
-- LEAGUE-NAME: `Write League Names`
-- `detailsId`: Unique Name
+- `LEAGUE-NAME`: Write League Names
+- `id`: Unique Item Id
+- `name`: Item Name
 - `icon`: Png Photo
 - `chaosValue`: Chaos Price
 - `exaltedValue`: Exalted Price
 - `divineValue`: Divine Price
-- `id`: Unique Item Id
+- `detailsId`: Unique Name
 
 ```json
 "lines": [
@@ -228,13 +229,14 @@ There are two types of data types in the poe ninja api. One is `currencyoverview
 # Incubators
 
 - `https://poe.ninja/api/data/itemoverview?league=LEAGUE-NAME&type=Incubator`
-- LEAGUE-NAME: `Write League Names`
-- `detailsId`: Unique Name
+- `LEAGUE-NAME`: Write League Names
+- `id`: Unique Item Id
+- `name`: Item Name
 - `icon`: Png Photo
 - `chaosValue`: Chaos Price
 - `exaltedValue`: Exalted Price
 - `divineValue`: Divine Price
-- `id`: Unique Item Id
+- `detailsId`: Unique Name
 
 ```json
 "lines": [
@@ -273,13 +275,14 @@ There are two types of data types in the poe ninja api. One is `currencyoverview
 # Scarabs
 
 - `https://poe.ninja/api/data/itemoverview?league=LEAGUE-NAME&type=Scarab`
-- LEAGUE-NAME: `Write League Names`
-- `detailsId`: Unique Name
+- `LEAGUE-NAME`: Write League Names
+- `id`: Unique Item Id
+- `name`: Item Name
 - `icon`: Png Photo
 - `chaosValue`: Chaos Price
 - `exaltedValue`: Exalted Price
 - `divineValue`: Divine Price
-- `id`: Unique Item Id
+- `detailsId`: Unique Name
 
 ```json
 "lines": [
@@ -318,13 +321,14 @@ There are two types of data types in the poe ninja api. One is `currencyoverview
 # Fossils
 
 - `https://poe.ninja/api/data/itemoverview?league=LEAGUE-NAME&type=Fossil`
-- LEAGUE-NAME: `Write League Names`
-- `detailsId`: Unique Name
+- `LEAGUE-NAME`: Write League Names
+- `id`: Unique Item Id
+- `name`: Item Name
 - `icon`: Png Photo
 - `chaosValue`: Chaos Price
 - `exaltedValue`: Exalted Price
 - `divineValue`: Divine Price
-- `id`: Unique Item Id
+- `detailsId`: Unique Name
 
 ```json
 "lines": [
@@ -363,13 +367,14 @@ There are two types of data types in the poe ninja api. One is `currencyoverview
 # Resonators
 
 - `https://poe.ninja/api/data/itemoverview?league=LEAGUE-NAME&type=Resanator`
-- LEAGUE-NAME: `Write League Names`
-- `detailsId`: Unique Name
+- `LEAGUE-NAME`: Write League Names
+- `id`: Unique Item Id
+- `name`: Item Name
 - `icon`: Png Photo
 - `chaosValue`: Chaos Price
 - `exaltedValue`: Exalted Price
 - `divineValue`: Divine Price
-- `id`: Unique Item Id
+- `detailsId`: Unique Name
 
 ```json
 "lines": [
@@ -403,13 +408,14 @@ There are two types of data types in the poe ninja api. One is `currencyoverview
 # Essences
 
 - `https://poe.ninja/api/data/itemoverview?league=LEAGUE-NAME&type=Essence`
-- LEAGUE-NAME: `Write League Names`
-- `detailsId`: Unique Name
+- `LEAGUE-NAME`: Write League Names
+- `id`: Unique Item Id
+- `name`: Item Name
 - `icon`: Png Photo
 - `chaosValue`: Chaos Price
 - `exaltedValue`: Exalted Price
 - `divineValue`: Divine Price
-- `id`: Unique Item Id
+- `detailsId`: Unique Name
 
 ```json
 "lines": [
@@ -488,13 +494,14 @@ There are two types of data types in the poe ninja api. One is `currencyoverview
 # Divination Cards
 
 - `https://poe.ninja/api/data/itemoverview?league=LEAGUE-NAME&type=DivinationCard`
-- LEAGUE-NAME: `Write League Names`
-- `detailsId`: Unique Name
+- `LEAGUE-NAME`: Write League Names
+- `id`: Unique Item Id
+- `name`: Item Name
 - `icon`: Png Photo
 - `chaosValue`: Chaos Price
 - `exaltedValue`: Exalted Price
 - `divineValue`: Divine Price
-- `id`: Unique Item Id
+- `detailsId`: Unique Name
 
 ```json
 "lines": [
@@ -534,13 +541,14 @@ There are two types of data types in the poe ninja api. One is `currencyoverview
 # Skill Gems
 
 - `https://poe.ninja/api/data/itemoverview?league=LEAGUE-NAME&type=SkillGem`
-- LEAGUE-NAME: `Write League Names`
-- `detailsId`: Unique Name
+- `LEAGUE-NAME`: Write League Names
+- `id`: Unique Item Id
+- `name`: Item Name
 - `icon`: Png Photo
 - `chaosValue`: Chaos Price
 - `exaltedValue`: Exalted Price
 - `divineValue`: Divine Price
-- `id`: Unique Item Id
+- `detailsId`: Unique Name
 
 ```json
 "lines": [
@@ -580,13 +588,14 @@ There are two types of data types in the poe ninja api. One is `currencyoverview
 # Base Types
 
 - `https://poe.ninja/api/data/itemoverview?league=LEAGUE-NAME&type=BaseType`
-- LEAGUE-NAME: `Write League Names`
-- `detailsId`: Unique Name
+- `LEAGUE-NAME`: Write League Names
+- `id`: Unique Item Id
+- `name`: Item Name
 - `icon`: Png Photo
 - `chaosValue`: Chaos Price
 - `exaltedValue`: Exalted Price
 - `divineValue`: Divine Price
-- `id`: Unique Item Id
+- `detailsId`: Unique Name
 
 ```json
 "lines": [
@@ -620,13 +629,14 @@ There are two types of data types in the poe ninja api. One is `currencyoverview
 # Helmet Enchants
 
 - `https://poe.ninja/api/data/itemoverview?league=LEAGUE-NAME&type=HelmetEnchant`
-- LEAGUE-NAME: `Write League Names`
-- `detailsId`: Unique Name
+- `LEAGUE-NAME`: Write League Names
+- `id`: Unique Item Id
+- `name`: Item Name
 - `icon`: Png Photo
 - `chaosValue`: Chaos Price
 - `exaltedValue`: Exalted Price
 - `divineValue`: Divine Price
-- `id`: Unique Item Id
+- `detailsId`: Unique Name
 
 ```json
 "lines": [
@@ -666,13 +676,14 @@ There are two types of data types in the poe ninja api. One is `currencyoverview
 # Unique Maps
 
 - `https://poe.ninja/api/data/itemoverview?league=LEAGUE-NAME&type=UniqueMap`
-- LEAGUE-NAME: `Write League Names`
-- `detailsId`: Unique Name
+- `LEAGUE-NAME`: Write League Names
+- `id`: Unique Item Id
+- `name`: Item Name
 - `icon`: Png Photo
 - `chaosValue`: Chaos Price
 - `exaltedValue`: Exalted Price
 - `divineValue`: Divine Price
-- `id`: Unique Item Id
+- `detailsId`: Unique Name
 
 ```json
 "lines": [
@@ -720,13 +731,14 @@ There are two types of data types in the poe ninja api. One is `currencyoverview
 # Maps
 
 - `https://poe.ninja/api/data/itemoverview?type=Map&league=LEAGUE-NAME`
-- LEAGUE-NAME: `Write League Names`
-- `detailsId`: Unique Name
+- `LEAGUE-NAME`: Write League Names
+- `id`: Unique Item Id
+- `name`: Item Name
 - `icon`: Png Photo
 - `chaosValue`: Chaos Price
 - `exaltedValue`: Exalted Price
 - `divineValue`: Divine Price
-- `id`: Unique Item Id
+- `detailsId`: Unique Name
 
 ```json
 "lines": [
@@ -762,13 +774,14 @@ There are two types of data types in the poe ninja api. One is `currencyoverview
 # Unique Jewels
 
 - `https://poe.ninja/api/data/itemoverview?league=LEAGUE-NAME&type=UniqueJewel`
-- LEAGUE-NAME: `Write League Names`
-- `detailsId`: Unique Name
+- `LEAGUE-NAME`: Write League Names
+- `id`: Unique Item Id
+- `name`: Item Name
 - `icon`: Png Photo
 - `chaosValue`: Chaos Price
 - `exaltedValue`: Exalted Price
 - `divineValue`: Divine Price
-- `id`: Unique Item Id
+- `detailsId`: Unique Name
 
 ```json
 "lines": [
@@ -802,13 +815,14 @@ There are two types of data types in the poe ninja api. One is `currencyoverview
 # Unique Flasks
 
 - `https://poe.ninja/api/data/itemoverview?league=LEAGUE-NAME&type=UniqueFlask`
-- LEAGUE-NAME: `Write League Names`
-- `detailsId`: Unique Name
+- `LEAGUE-NAME`: Write League Names
+- `id`: Unique Item Id
+- `name`: Item Name
 - `icon`: Png Photo
 - `chaosValue`: Chaos Price
 - `exaltedValue`: Exalted Price
 - `divineValue`: Divine Price
-- `id`: Unique Item Id
+- `detailsId`: Unique Name
 
 ```json
 "lines": [
@@ -860,13 +874,14 @@ There are two types of data types in the poe ninja api. One is `currencyoverview
 # Unique Weapons
 
 - `https://poe.ninja/api/data/itemoverview?league=LEAGUE-NAME&type=UniqueWeapon`
-- LEAGUE-NAME: `Write League Names`
-- `detailsId`: Unique Name
+- `LEAGUE-NAME`: Write League Names
+- `id`: Unique Item Id
+- `name`: Item Name
 - `icon`: Png Photo
 - `chaosValue`: Chaos Price
 - `exaltedValue`: Exalted Price
 - `divineValue`: Divine Price
-- `id`: Unique Item Id
+- `detailsId`: Unique Name
 
 ```json
 "lines": [
@@ -933,13 +948,14 @@ There are two types of data types in the poe ninja api. One is `currencyoverview
 # Unique Armours
 
 - `https://poe.ninja/api/data/itemoverview?league=LEAGUE-NAME&type=UniqueArmour`
-- LEAGUE-NAME: `Write League Names`
-- `detailsId`: Unique Name
+- `LEAGUE-NAME`: Write League Names
+- `id`: Unique Item Id
+- `name`: Item Name
 - `icon`: Png Photo
 - `chaosValue`: Chaos Price
 - `exaltedValue`: Exalted Price
 - `divineValue`: Divine Price
-- `id`: Unique Item Id
+- `detailsId`: Unique Name
 
 ```json
 "lines": [
@@ -1001,13 +1017,14 @@ There are two types of data types in the poe ninja api. One is `currencyoverview
 # Unique Accessories
 
 - `https://poe.ninja/api/data/itemoverview?league=LEAGUE-NAME&type=UniqueAccessory`
-- LEAGUE-NAME: `Write League Names`
-- `detailsId`: Unique Name
+- `LEAGUE-NAME`: Write League Names
+- `id`: Unique Item Id
+- `name`: Item Name
 - `icon`: Png Photo
 - `chaosValue`: Chaos Price
 - `exaltedValue`: Exalted Price
 - `divineValue`: Divine Price
-- `id`: Unique Item Id
+- `detailsId`: Unique Name
 
 ```json
 "lines": [
@@ -1090,13 +1107,14 @@ There are two types of data types in the poe ninja api. One is `currencyoverview
 # Beasts
 
 - `https://poe.ninja/api/data/itemoverview?league=LEAGUE-NAME&type=Beast`
-- LEAGUE-NAME: `Write League Names`
-- `detailsId`: Unique Name
+- `LEAGUE-NAME`: Write League Names
+- `id`: Unique Item Id
+- `name`: Item Name
 - `icon`: Png Photo
 - `chaosValue`: Chaos Price
 - `exaltedValue`: Exalted Price
 - `divineValue`: Divine Price
-- `id`: Unique Item Id
+- `detailsId`: Unique Name
 
 ```json
 "lines": [
@@ -1130,13 +1148,14 @@ There are two types of data types in the poe ninja api. One is `currencyoverview
 # Vials
 
 - `https://poe.ninja/api/data/itemoverview?league=LEAGUE-NAME&type=Beast`
-- LEAGUE-NAME: `Write League Names`
-- `detailsId`: Unique Name
+- `LEAGUE-NAME`: Write League Names
+- `id`: Unique Item Id
+- `name`: Item Name
 - `icon`: Png Photo
 - `chaosValue`: Chaos Price
 - `exaltedValue`: Exalted Price
 - `divineValue`: Divine Price
-- `id`: Unique Item Id
+- `detailsId`: Unique Name
 
 ```json
 "lines": [
