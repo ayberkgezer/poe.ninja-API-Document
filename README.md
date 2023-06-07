@@ -4,7 +4,7 @@ Hi! I compiled **poe.ninja API** to use in projects
 
 ### Active League Names
 
-- `New-League`
+- `Crucible`
 - `Standard`
 - `Hardcore`
 - `Sanctum`
