@@ -34,6 +34,7 @@ There are two types of data types in the poe ninja api. One is `currencyoverview
 |                  | UniqueAccessory |
 |                  | Beast           |
 |                  | Vials           |
+|                  | Delirium Orbs   |
 
 ## Poe Ninja API
 
@@ -60,6 +61,8 @@ There are two types of data types in the poe ninja api. One is `currencyoverview
 | [Unique Accessories ](https://github.com/ayberkgezer/poe.ninja-API-Document#unique-accessories) | https://poe.ninja/api/data/itemoverview?league=LEAGUE-NAME&type=UniqueAccessory |
 | [Beasts ](https://github.com/ayberkgezer/poe.ninja-API-Document#Beasts)                         | https://poe.ninja/api/data/itemoverview?league=LEAGUE-NAME&type=Beast           |
 | [Vials ](https://github.com/ayberkgezer/poe.ninja-API-Document#Vials)                           | https://poe.ninja/api/data/itemoverview?league=LEAGUE-NAME&type=Vial            |
+| [Vials ](https://github.com/ayberkgezer/poe.ninja-API-Document#Delirium)                           | https://poe.ninja/api/data/itemoverview?league=LEAGUE-NAME&type=Vial            |
+
 
 # Currency
 
@@ -1186,3 +1189,15 @@ There are two types of data types in the poe ninja api. One is `currencyoverview
     },
 ]
 ```
+
+# Delirium Orbs
+
+- `https://poe.ninja/api/data/itemoverview?league=LEAGUE-NAME&type=DeliriumOrb`
+- `LEAGUE-NAME`: Write League Names
+- `id`: Unique Item Id
+- `name`: Item Name
+- `icon`: Png Photo
+- `chaosValue`: Chaos Price
+- `exaltedValue`: Exalted Price
+- `divineValue`: Divine Price
+- `detailsId`: Unique Name
