@@ -4,10 +4,10 @@ Hi! I compiled **poe.ninja API** to use in projects
 
 ### Active League Names
 
-- `Crucible`
+- `Ancestor`
 - `Standard`
 - `Hardcore`
-- `Sanctum`
+- `Crucible`
 
 ## Poe Ninja
 
