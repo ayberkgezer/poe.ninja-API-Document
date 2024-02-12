@@ -40,31 +40,31 @@ There are two types of data types in the poe ninja api. One is `currencyoverview
 
 | Category                                                                                        | API                                                                             |
 | ----------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------- |
-| [Currency](https://github.com/ayberkgezer/poe.ninja-API-Document#currency)                      | https://poe.ninja/api/data/currencyoverview?league=LEAGUE-NAME&type=Currency    |
-| [Fragment](https://github.com/ayberkgezer/poe.ninja-API-Document#fragment)                      | https://poe.ninja/api/data/currencyoverview?league=LEAGUE-NAME&type=Fragment    |
-| [Oils](https://github.com/ayberkgezer/poe.ninja-API-Document#oils)                              | https://poe.ninja/api/data/itemoverview?league=LEAGUE-NAME&type=Oil             |
-| [Incubators ](https://github.com/ayberkgezer/poe.ninja-API-Document#incubators)                 | https://poe.ninja/api/data/itemoverview?league=LEAGUE-NAME&type=Incubator       |
-| [Scarabs ](https://github.com/ayberkgezer/poe.ninja-API-Document#scarabs)                       | https://poe.ninja/api/data/itemoverview?league=LEAGUE-NAME&type=Scarab          |
-| [Fossils ](https://github.com/ayberkgezer/poe.ninja-API-Document#fossils)                       | https://poe.ninja/api/data/itemoverview?league=LEAGUE-NAME&type=Fossil          |
-| [Resonators ](https://github.com/ayberkgezer/poe.ninja-API-Document#resonators)                 | https://poe.ninja/api/data/itemoverview?league=LEAGUE-NAME&type=Resonator       |
-| [Essences ](https://github.com/ayberkgezer/poe.ninja-API-Document#essences)                     | https://poe.ninja/api/data/itemoverview?league=LEAGUE-NAME&type=Essence         |
-| [Divination Cards ](https://github.com/ayberkgezer/poe.ninja-API-Document#divination-cards)     | https://poe.ninja/api/data/itemoverview?league=LEAGUE-NAME&type=DivinationCard  |
-| [Skill Gems ](https://github.com/ayberkgezer/poe.ninja-API-Document#skill-gems)                 | https://poe.ninja/api/data/itemoverview?league=LEAGUE-NAME&type=SkillGem        |
-| [Base Types ](https://github.com/ayberkgezer/poe.ninja-API-Document#base-types)                 | https://poe.ninja/api/data/itemoverview?league=LEAGUE-NAME&type=BaseType        |
-| [Helmet Enchants ](https://github.com/ayberkgezer/poe.ninja-API-Document#helmet-enchants)       | https://poe.ninja/api/data/itemoverview?league=LEAGUE-NAME&type=HelmetEnchant   |
-| [Unique Maps ](https://github.com/ayberkgezer/poe.ninja-API-Document#unique-maps)               | https://poe.ninja/api/data/itemoverview?league=LEAGUE-NAME&type=UniqueMap       |
-| [Maps ](https://github.com/ayberkgezer/poe.ninja-API-Document#maps)                             | https://poe.ninja/api/data/itemoverview?type=Map&league=LEAGUE-NAME             |
-| [Unique Jewels ](https://github.com/ayberkgezer/poe.ninja-API-Document#unique-jewels)           | https://poe.ninja/api/data/itemoverview?league=LEAGUE-NAME&type=UniqueJewel     |
-| [Unique Flasks ](https://github.com/ayberkgezer/poe.ninja-API-Document#unique-flasks)           | https://poe.ninja/api/data/itemoverview?league=LEAGUE-NAME&type=UniqueFlask     |
-| [Unique Weapons ](https://github.com/ayberkgezer/poe.ninja-API-Document#unique-weapons)         | https://poe.ninja/api/data/itemoverview?league=LEAGUE-NAME&type=UniqueWeapon    |
-| [Unique Armours ](https://github.com/ayberkgezer/poe.ninja-API-Document#unique-armours)         | https://poe.ninja/api/data/itemoverview?league=LEAGUE-NAME&type=UniqueArmour    |
-| [Unique Accessories ](https://github.com/ayberkgezer/poe.ninja-API-Document#unique-accessories) | https://poe.ninja/api/data/itemoverview?league=LEAGUE-NAME&type=UniqueAccessory |
-| [Beasts ](https://github.com/ayberkgezer/poe.ninja-API-Document#Beasts)                         | https://poe.ninja/api/data/itemoverview?league=LEAGUE-NAME&type=Beast           |
-| [Vials ](https://github.com/ayberkgezer/poe.ninja-API-Document#Vials)                           | https://poe.ninja/api/data/itemoverview?league=LEAGUE-NAME&type=Vial            |
-| [Delirium Orbs ](https://github.com/ayberkgezer/poe.ninja-API-Document#delirium-orbs)           | https://poe.ninja/api/data/itemoverview?league=LEAGUE-NAME&type=DeliriumOrb     |
+| [Currency](#currency)                      | https://poe.ninja/api/data/currencyoverview?league=LEAGUE-NAME&type=Currency    |
+| [Fragment](#fragment)                      | https://poe.ninja/api/data/currencyoverview?league=LEAGUE-NAME&type=Fragment    |
+| [Oils](#oils)                              | https://poe.ninja/api/data/itemoverview?league=LEAGUE-NAME&type=Oil             |
+| [Incubators ](#incubators)                 | https://poe.ninja/api/data/itemoverview?league=LEAGUE-NAME&type=Incubator       |
+| [Scarabs ](#scarabs)                       | https://poe.ninja/api/data/itemoverview?league=LEAGUE-NAME&type=Scarab          |
+| [Fossils ](#fossils)                       | https://poe.ninja/api/data/itemoverview?league=LEAGUE-NAME&type=Fossil          |
+| [Resonators ](#resonators)                 | https://poe.ninja/api/data/itemoverview?league=LEAGUE-NAME&type=Resonator       |
+| [Essences ](#essences)                     | https://poe.ninja/api/data/itemoverview?league=LEAGUE-NAME&type=Essence         |
+| [Divination Cards ](#divination-cards)     | https://poe.ninja/api/data/itemoverview?league=LEAGUE-NAME&type=DivinationCard  |
+| [Skill Gems ](#skill-gems)                 | https://poe.ninja/api/data/itemoverview?league=LEAGUE-NAME&type=SkillGem        |
+| [Base Types ](#base-types)                 | https://poe.ninja/api/data/itemoverview?league=LEAGUE-NAME&type=BaseType        |
+| [Helmet Enchants ](#helmet-enchants)       | https://poe.ninja/api/data/itemoverview?league=LEAGUE-NAME&type=HelmetEnchant   |
+| [Unique Maps ](#unique-maps)               | https://poe.ninja/api/data/itemoverview?league=LEAGUE-NAME&type=UniqueMap       |
+| [Maps ](#maps)                             | https://poe.ninja/api/data/itemoverview?type=Map&league=LEAGUE-NAME             |
+| [Unique Jewels ](#unique-jewels)           | https://poe.ninja/api/data/itemoverview?league=LEAGUE-NAME&type=UniqueJewel     |
+| [Unique Flasks ](#unique-flasks)           | https://poe.ninja/api/data/itemoverview?league=LEAGUE-NAME&type=UniqueFlask     |
+| [Unique Weapons ](#unique-weapons)         | https://poe.ninja/api/data/itemoverview?league=LEAGUE-NAME&type=UniqueWeapon    |
+| [Unique Armours ](#unique-armours)         | https://poe.ninja/api/data/itemoverview?league=LEAGUE-NAME&type=UniqueArmour    |
+| [Unique Accessories ](#unique-accessories) | https://poe.ninja/api/data/itemoverview?league=LEAGUE-NAME&type=UniqueAccessory |
+| [Beasts ](#beasts)                         | https://poe.ninja/api/data/itemoverview?league=LEAGUE-NAME&type=Beast           |
+| [Vials ](#vials)                           | https://poe.ninja/api/data/itemoverview?league=LEAGUE-NAME&type=Vial            |
+| [Delirium Orbs ](#delirium-orbs)           | https://poe.ninja/api/data/itemoverview?league=LEAGUE-NAME&type=DeliriumOrb     |
 
 
-# Currency
+## Currency
 
 - `https://poe.ninja/api/data/currencyoverview?league=LEAGUE-NAME&type=Currency`
 - `LEAGUE-NAME`: Write League Names
@@ -131,7 +131,7 @@ There are two types of data types in the poe ninja api. One is `currencyoverview
 ]
 ```
 
-# Fragment
+## Fragment
 
 - `https://poe.ninja/api/data/currencyoverview?league=LEAGUE-NAME&type=Fragment`
 - `LEAGUE-NAME`: Write League Names
@@ -188,7 +188,7 @@ There are two types of data types in the poe ninja api. One is `currencyoverview
 ]
 ```
 
-# Oils
+## Oils
 
 - `https://poe.ninja/api/data/itemoverview?league=LEAGUE-NAME&type=Oil`
 - `LEAGUE-NAME`: Write League Names
@@ -230,7 +230,7 @@ There are two types of data types in the poe ninja api. One is `currencyoverview
 ]
 ```
 
-# Incubators
+## Incubators
 
 - `https://poe.ninja/api/data/itemoverview?league=LEAGUE-NAME&type=Incubator`
 - `LEAGUE-NAME`: Write League Names
@@ -276,7 +276,7 @@ There are two types of data types in the poe ninja api. One is `currencyoverview
 ]
 ```
 
-# Scarabs
+## Scarabs
 
 - `https://poe.ninja/api/data/itemoverview?league=LEAGUE-NAME&type=Scarab`
 - `LEAGUE-NAME`: Write League Names
@@ -322,7 +322,7 @@ There are two types of data types in the poe ninja api. One is `currencyoverview
 ]
 ```
 
-# Fossils
+## Fossils
 
 - `https://poe.ninja/api/data/itemoverview?league=LEAGUE-NAME&type=Fossil`
 - `LEAGUE-NAME`: Write League Names
@@ -368,7 +368,7 @@ There are two types of data types in the poe ninja api. One is `currencyoverview
 ]
 ```
 
-# Resonators
+## Resonators
 
 - `https://poe.ninja/api/data/itemoverview?league=LEAGUE-NAME&type=Resanator`
 - `LEAGUE-NAME`: Write League Names
@@ -409,7 +409,7 @@ There are two types of data types in the poe ninja api. One is `currencyoverview
 ]
 ```
 
-# Essences
+## Essences
 
 - `https://poe.ninja/api/data/itemoverview?league=LEAGUE-NAME&type=Essence`
 - `LEAGUE-NAME`: Write League Names
@@ -495,7 +495,7 @@ There are two types of data types in the poe ninja api. One is `currencyoverview
 ]
 ```
 
-# Divination Cards
+## Divination Cards
 
 - `https://poe.ninja/api/data/itemoverview?league=LEAGUE-NAME&type=DivinationCard`
 - `LEAGUE-NAME`: Write League Names
@@ -542,7 +542,7 @@ There are two types of data types in the poe ninja api. One is `currencyoverview
 ]
 ```
 
-# Skill Gems
+## Skill Gems
 
 - `https://poe.ninja/api/data/itemoverview?league=LEAGUE-NAME&type=SkillGem`
 - `LEAGUE-NAME`: Write League Names
@@ -589,7 +589,7 @@ There are two types of data types in the poe ninja api. One is `currencyoverview
 ]
 ```
 
-# Base Types
+## Base Types
 
 - `https://poe.ninja/api/data/itemoverview?league=LEAGUE-NAME&type=BaseType`
 - `LEAGUE-NAME`: Write League Names
@@ -630,7 +630,7 @@ There are two types of data types in the poe ninja api. One is `currencyoverview
 ]
 ```
 
-# Helmet Enchants
+## Helmet Enchants
 
 - `https://poe.ninja/api/data/itemoverview?league=LEAGUE-NAME&type=HelmetEnchant`
 - `LEAGUE-NAME`: Write League Names
@@ -677,7 +677,7 @@ There are two types of data types in the poe ninja api. One is `currencyoverview
 ]
 ```
 
-# Unique Maps
+## Unique Maps
 
 - `https://poe.ninja/api/data/itemoverview?league=LEAGUE-NAME&type=UniqueMap`
 - `LEAGUE-NAME`: Write League Names
@@ -732,7 +732,7 @@ There are two types of data types in the poe ninja api. One is `currencyoverview
 ]
 ```
 
-# Maps
+## Maps
 
 - `https://poe.ninja/api/data/itemoverview?type=Map&league=LEAGUE-NAME`
 - `LEAGUE-NAME`: Write League Names
@@ -775,7 +775,7 @@ There are two types of data types in the poe ninja api. One is `currencyoverview
 ]
 ```
 
-# Unique Jewels
+## Unique Jewels
 
 - `https://poe.ninja/api/data/itemoverview?league=LEAGUE-NAME&type=UniqueJewel`
 - `LEAGUE-NAME`: Write League Names
@@ -816,7 +816,7 @@ There are two types of data types in the poe ninja api. One is `currencyoverview
 ]
 ```
 
-# Unique Flasks
+## Unique Flasks
 
 - `https://poe.ninja/api/data/itemoverview?league=LEAGUE-NAME&type=UniqueFlask`
 - `LEAGUE-NAME`: Write League Names
@@ -875,7 +875,7 @@ There are two types of data types in the poe ninja api. One is `currencyoverview
 ]
 ```
 
-# Unique Weapons
+## Unique Weapons
 
 - `https://poe.ninja/api/data/itemoverview?league=LEAGUE-NAME&type=UniqueWeapon`
 - `LEAGUE-NAME`: Write League Names
@@ -949,7 +949,7 @@ There are two types of data types in the poe ninja api. One is `currencyoverview
 ]
 ```
 
-# Unique Armours
+## Unique Armours
 
 - `https://poe.ninja/api/data/itemoverview?league=LEAGUE-NAME&type=UniqueArmour`
 - `LEAGUE-NAME`: Write League Names
@@ -1018,7 +1018,7 @@ There are two types of data types in the poe ninja api. One is `currencyoverview
 ]
 ```
 
-# Unique Accessories
+## Unique Accessories
 
 - `https://poe.ninja/api/data/itemoverview?league=LEAGUE-NAME&type=UniqueAccessory`
 - `LEAGUE-NAME`: Write League Names
@@ -1108,7 +1108,7 @@ There are two types of data types in the poe ninja api. One is `currencyoverview
 ]
 ```
 
-# Beasts
+## Beasts
 
 - `https://poe.ninja/api/data/itemoverview?league=LEAGUE-NAME&type=Beast`
 - `LEAGUE-NAME`: Write League Names
@@ -1149,7 +1149,7 @@ There are two types of data types in the poe ninja api. One is `currencyoverview
 ]
 ```
 
-# Vials
+## Vials
 
 - `https://poe.ninja/api/data/itemoverview?league=LEAGUE-NAME&type=Beast`
 - `LEAGUE-NAME`: Write League Names
@@ -1190,7 +1190,7 @@ There are two types of data types in the poe ninja api. One is `currencyoverview
 ]
 ```
 
-# Delirium Orbs
+## Delirium Orbs
 
 - `https://poe.ninja/api/data/itemoverview?league=LEAGUE-NAME&type=DeliriumOrb`
 - `LEAGUE-NAME`: Write League Names
