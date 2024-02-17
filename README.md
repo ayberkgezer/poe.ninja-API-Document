@@ -35,7 +35,13 @@ There are two types of data types in the poe ninja api. One is `currencyoverview
 |                  | Beast           |
 |                  | Vials           |
 |                  | Delirium Orbs   |
-
+||Omens|
+||Unique Relic|
+||Cluster Jewel|
+||Blighted Maps|
+||Blight Ravaged Maps|
+||Invitations|
+||Memories|
 ## Poe Ninja API
 
 | Category                                                                                        | API                                                                             |
@@ -62,6 +68,13 @@ There are two types of data types in the poe ninja api. One is `currencyoverview
 | [Beasts ](#beasts)                         | https://poe.ninja/api/data/itemoverview?league=LEAGUE-NAME&type=Beast           |
 | [Vials ](#vials)                           | https://poe.ninja/api/data/itemoverview?league=LEAGUE-NAME&type=Vial            |
 | [Delirium Orbs ](#delirium-orbs)           | https://poe.ninja/api/data/itemoverview?league=LEAGUE-NAME&type=DeliriumOrb     |
+| [Omens](#omens) | https://poe.ninja/api/data/itemoverview?league=LEAGUE-NAME&type=Omen
+|[Unique Relics](#unique-relics)|https://poe.ninja/api/data/itemoverview?league=LEAGUE-NAME&type=UniqueRelic|
+|[Cluster Jewels](#cluster-jewels)|https://poe.ninja/api/data/itemoverview?league=LEAGUE-NAME&type=ClusterJewel|
+|[Blighted Maps](#blighted-maps)|https://poe.ninja/api/data/itemoverview?league=LEAGUE-NAME&type=BlightedMap|
+|[Blight Ravaged Maps](#blight-ravaged-maps)|https://poe.ninja/api/data/itemoverview?league=LEAGUE-NAME&type=BlightRavagedMap|
+|[Invitations](#invitations)|https://poe.ninja/api/data/itemoverview?league=LEAGUE-NAME&type=Invitation|
+|[Memories](#memories)|https://poe.ninja/api/data/itemoverview?league=LEAGUE-NAME&type=Memory|
 
 
 ## Currency
@@ -1235,5 +1248,451 @@ There are two types of data types in the poe ninja api. One is `currencyoverview
         "tradeInfo": [],
         "listingCount": 6047
     },
+]
+```
+
+## Omens
+
+- `https://poe.ninja/api/data/itemoverview?league=LEAGUE-NAME&type=Omen`
+- `LEAGUE-NAME`: Write League Names
+- `id`: Unique Item Id
+- `name`: Item Name
+- `icon`: Png Photo
+- `chaosValue`: Chaos Price
+- `exaltedValue`: Exalted Price
+- `divineValue`: Divine Price
+- `detailsId`: Unique Name
+
+```json
+"lines": [
+    {
+        "id": 107341,
+        "name": "Omen of Fortune",
+        "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQXptZXJpL1Zvb2Rvb09tZW5zMVB1cnBsZSIsInciOjEsImgiOjEsInNjYWxlIjoxfV0/68c64f2338/VoodooOmens1Purple.png",
+        "baseType": "Omen of Fortune",
+        "itemClass": 5,
+        "sparkline": {
+            "data": [
+                0,
+                36.87,
+                42.01,
+                42.72,
+                43.25,
+                43.34,
+                49.9
+            ],
+        "totalChange": 49.9
+        },
+        "lowConfidenceSparkline": {
+            "data": [
+                0,
+                36.87,
+                42.01,
+                42.72,
+                43.25,
+                43.34,
+                49.9
+            ],
+        "totalChange": 49.9
+        },
+        "implicitModifiers": [],
+        "explicitModifiers": [
+            {
+                "text": "Will be Consumed when you use an Orb of Chance\non an item which can become Unique to ensure it does so",
+                "optional": false
+            }
+        ],
+        "flavourText": "",
+        "chaosValue": 3500.28,
+        "exaltedValue": 315.06,
+        "divineValue": 27,
+        "count": 32,
+        "detailsId": "omen-of-fortune",
+        "tradeInfo": [],
+        "listingCount": 71
+    },
+]
+```
+
+## Unique Relics
+
+- `https://poe.ninja/api/data/itemoverview?league=LEAGUE-NAME&type=UniqueRelic`
+- `LEAGUE-NAME`: Write League Names
+- `id`: Unique Item Id
+- `name`: Item Name
+- `icon`: Png Photo
+- `chaosValue`: Chaos Price
+- `exaltedValue`: Exalted Price
+- `divineValue`: Divine Price
+- `detailsId`: Unique Name
+
+```json
+"lines": [
+    {
+	    "id": 107858,
+	    "name": "The Original Scripture",
+	    "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUmVsaWNzL1JlbGljVW5pcXVlNHgxIiwidyI6NCwiaCI6MSwic2NhbGUiOjF9XQ/e6e8bfb6e4/RelicUnique4x1.png",
+	    "baseType": "Papyrus Relic",
+	    "itemClass": 3,
+	    "sparkline": {
+		    "data": [
+			    0,
+			    -6.53,
+			    -12.59,
+			    -3.74,
+			    -3.79,
+			    -2.13,
+			    0.58
+		    ],
+		    "totalChange": 0.58
+	    },
+	    "lowConfidenceSparkline": {
+		    "data": [
+			    0,
+			    -6.53,
+			    -12.59,
+			    -3.74,
+			    -3.79,
+			    -2.13,
+			    0.58
+		    ],
+		    "totalChange": 0.58
+	    },
+	    "implicitModifiers": [],
+	    "explicitModifiers": [
+		    {
+			    "text": "The Herald of the Scourge drops the Original Sin",
+			    "optional": false
+		    },
+		    {
+			    "text": "Cannot have Inspiration",
+			    "optional": false
+		    },
+		    {
+			    "text": "Maximum Resolve is 1",
+			    "optional": false
+		    },
+		    {
+			    "text": "Cannot be used with Forbidden Tomes below level 83",
+			    "optional": false
+		    },
+		    {
+			    "text": "This item is destroyed when applied to a Sanctum",
+			    "optional": false
+		    }
+	    ],
+	    "flavourText": "\"It's all here. The lie at the core of my faith. Maxarius was not the first chosen of Innocence. Maxarius was Innocence himself. A charlatan, a liar, and a power-seeker.\" - Lycia, the Heretic",
+	    "chaosValue": 181464.1,
+	    "exaltedValue": 16333.4,
+	    "divineValue": 1399.75,
+	    "count": 12,
+	    "detailsId": "the-original-scripture-relic",
+	    "tradeInfo": [],
+	    "listingCount": 18
+    }
+]
+```
+
+## Cluster Jewels
+
+- `https://poe.ninja/api/data/itemoverview?league=LEAGUE-NAME&type=ClusterJewel`
+- `LEAGUE-NAME`: Write League Names
+- `id`: Unique Item Id
+- `name`: Item Name
+- `icon`: Png Photo
+- `chaosValue`: Chaos Price
+- `exaltedValue`: Exalted Price
+- `divineValue`: Divine Price
+- `detailsId`: Unique Name
+
+```json
+"lines": [
+    {
+	    "id": 71084,
+	    "name": "6% increased Mana Reservation Efficiency of Skills",
+	    "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvSmV3ZWxzL05ld0dlbUJhc2UxIiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/0eb1a9d981/NewGemBase1.png",
+	    "levelRequired": 84,
+	    "baseType": "Small Cluster Jewel",
+	    "variant": "3 passives",
+	    "itemClass": 2,
+	    "sparkline": {
+		    "data": [
+			    0,
+			    -0.88,
+		    	1.11,
+		    	11.99,
+		    	5.05,
+		    	5.43,
+			    6.71
+		    ],
+		    "totalChange": 6.71
+	    },
+	    "lowConfidenceSparkline": {
+		    "data": [
+			    0,
+			    -0.88,
+			    1.11,
+			    11.99,
+			    5.05,
+			    5.43,
+			    6.71
+		    ],
+		    "totalChange": 6.71
+	    },
+	    "implicitModifiers": [],
+	    "explicitModifiers": [],
+	    "flavourText": "",
+	    "itemType": "Jewel",
+	    "chaosValue": 7524.92,
+	    "exaltedValue": 677.31,
+	    "divineValue": 58,
+	    "count": 399,
+	    "detailsId": "6-increased-mana-reservation-efficiency-of-skills-3-passives-84",
+	    "tradeInfo": [
+		    {
+			    "mod": "enchant.stat_3948993189",
+			    "min": 0,
+			    "max": 0,
+			    "option": "54"
+		    },
+		    {
+			    "mod": "enchant.stat_3086156145",
+			    "min": 3,
+			    "max": 3
+		    }
+	    ],
+	    "listingCount": 2612
+    }
+]
+```
+
+## Blighted Maps
+
+- `https://poe.ninja/api/data/itemoverview?league=LEAGUE-NAME&type=BlightedMap`
+- `LEAGUE-NAME`: Write League Names
+- `id`: Unique Item Id
+- `name`: Item Name
+- `icon`: Png Photo
+- `chaosValue`: Chaos Price
+- `exaltedValue`: Exalted Price
+- `divineValue`: Divine Price
+- `detailsId`: Unique Name
+
+```json
+"lines": [
+    {
+        "id": 109785,
+        "name": "Blighted Relic Chambers Map",
+        "icon": "https://web.poecdn.com/gen/image/WzI4LDE0LHsiZiI6IjJESXRlbXMvTWFwcy9BdGxhczJNYXBzL05ldy9BbnRpcXVhcnkiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MSwibW4iOjE5LCJtdCI6MTAsIm1iIjp0cnVlfV0/d55ed367b8/Antiquary.png",
+        "mapTier": 10,
+        "baseType": "Blighted Relic Chambers Map",
+        "variant": ", Gen-19",
+        "itemClass": 0,
+        "sparkline": {
+            "data": [],
+            "totalChange": 0
+        },
+        "lowConfidenceSparkline": {
+            "data": [
+                0,
+                -0.41,
+                1.5,
+                3.86,
+                5.3,
+                6.01,
+                10.74
+            ],
+            "totalChange": 10.74
+        },
+        "implicitModifiers": [],
+        "explicitModifiers": [],
+        "flavourText": "",
+        "chaosValue": 129.55,
+        "exaltedValue": 11.66,
+        "divineValue": 1,
+        "count": 1,
+        "detailsId": "blighted-relic-chambers-map-t10-gen-19",
+        "tradeInfo": [],
+        "listingCount": 4
+    },
+]
+```
+
+## Blight Ravaged Maps
+
+- `https://poe.ninja/api/data/itemoverview?league=LEAGUE-NAME&type=BlightRavagedMap`
+- `LEAGUE-NAME`: Write League Names
+- `id`: Unique Item Id
+- `name`: Item Name
+- `icon`: Png Photo
+- `chaosValue`: Chaos Price
+- `exaltedValue`: Exalted Price
+- `divineValue`: Divine Price
+- `detailsId`: Unique Name
+
+```json
+"lines": [
+    {
+        "id": 109851,
+        "name": "Blight-ravaged Bone Crypt Map",
+        "icon": "https://web.poecdn.com/gen/image/WzI4LDE0LHsiZiI6IjJESXRlbXMvTWFwcy9BdGxhczJNYXBzL05ldy9DYXRhY29tYiIsInciOjEsImgiOjEsInNjYWxlIjoxLCJtbiI6MTksIm10IjoxNiwibXViIjp0cnVlfV0/22c6fcf5fb/Catacomb.png",
+        "mapTier": 16,
+        "baseType": "Blight-ravaged Bone Crypt Map",
+        "variant": ", Gen-19",
+        "itemClass": 0,
+        "sparkline": {
+            "data": [],
+            "totalChange": 0
+        },
+        "lowConfidenceSparkline": {
+            "data": [
+                0,
+                -0.35,
+                -22.19,
+                59.64,
+                65.9,
+                65.95,
+                102.86
+            ],
+            "totalChange": 102.86
+        },
+        "implicitModifiers": [],
+        "explicitModifiers": [],
+        "flavourText": "",
+        "chaosValue": 1016.6,
+        "exaltedValue": 91.5,
+        "divineValue": 7.85,
+        "count": 2,
+        "detailsId": "blight-ravaged-bone-crypt-map-t16-gen-19",
+        "tradeInfo": [],
+        "listingCount": 5
+    },
+]
+```
+
+## Invitations
+
+- `https://poe.ninja/api/data/itemoverview?league=LEAGUE-NAME&type=Invitation`
+- `LEAGUE-NAME`: Write League Names
+- `id`: Unique Item Id
+- `name`: Item Name
+- `icon`: Png Photo
+- `chaosValue`: Chaos Price
+- `exaltedValue`: Exalted Price
+- `divineValue`: Divine Price
+- `detailsId`: Unique Name
+
+```json
+"lines": [
+    {
+        "id": 93816,
+        "name": "Screaming Invitation",
+        "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUXVlc3RJdGVtcy9UYW5nbGVkT3JiUXVlc3Q1IiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/75de691c2b/TangledOrbQuest5.png",
+        "baseType": "Screaming Invitation",
+        "itemClass": 0,
+        "sparkline": {
+            "data": [
+                0,
+                7.53,
+                1.38,
+                -3.09,
+                14.45,
+                22.89,
+                -7.83
+            ],
+            "totalChange": -7.83
+        },
+        "lowConfidenceSparkline": {
+            "data": [
+                0,
+                7.53,
+                1.38,
+                -3.09,
+                14.45,
+                22.89,
+                -7.83
+            ],
+            "totalChange": -7.83
+        },
+        "implicitModifiers": [],
+        "explicitModifiers": [],
+        "flavourText": "From the heart of the Tangle, the Eater of Worlds\nreaches out for control of the Atlas.",
+        "chaosValue": 300,
+        "exaltedValue": 27.47,
+        "divineValue": 2.32,
+        "count": 399,
+        "detailsId": "screaming-invitation",
+        "tradeInfo": [],
+        "listingCount": 8416
+    },
+]
+```
+
+## Memories
+
+- `https://poe.ninja/api/data/itemoverview?league=LEAGUE-NAME&type=Memory`
+- `LEAGUE-NAME`: Write League Names
+- `id`: Unique Item Id
+- `name`: Item Name
+- `icon`: Png Photo
+- `chaosValue`: Chaos Price
+- `exaltedValue`: Exalted Price
+- `divineValue`: Divine Price
+- `detailsId`: Unique Name
+
+```json
+"lines": [
+    {
+        "id": 108143,
+        "name": "Einhar's Memory of Harvest Beasts",
+        "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvTWVtb3J5TGluZS9FaW5oYXJNZW1vcnlJdGVtIiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/5e4c7a8f89/EinharMemoryItem.png",
+        "baseType": "Einhar's Memory",
+        "itemClass": 1,
+        "sparkline": {
+            "data": [
+                0,
+                -0.41,
+                0.54,
+                1.74,
+                -8.39,
+                -8.4,
+                -3.79
+            ],
+            "totalChange": -3.79
+        },
+        "lowConfidenceSparkline": {
+            "data": [
+                0,
+                -0.41,
+                0.54,
+                1.74,
+                -8.39,
+                -8.4,
+                -3.79
+            ],
+            "totalChange": -3.79
+        },
+        "implicitModifiers": [],
+        "explicitModifiers": [
+            {
+                "text": "Areas contain Einhar\nAreas can contain capturable Harvest Beasts",
+                "optional": false
+            }
+        ],
+        "flavourText": "",
+        "chaosValue": 1800.74,
+        "exaltedValue": 164.9,
+        "divineValue": 13.9,
+        "count": 399,
+        "detailsId": "einhars-memory-of-harvest-beasts",
+        "tradeInfo": [
+            {
+                "mod": "explicit.stat_3751566939",
+                "min": 0,
+                "max": 0
+            }
+        ],
+        "listingCount": 1815
+    }
 ]
 ```
