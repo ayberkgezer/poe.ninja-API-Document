@@ -46,6 +46,7 @@ There are two types of data types in the poe ninja api. One is `currencyoverview
 ||Blight Ravaged Maps|
 ||Invitations|
 ||Memories|
+||Coffins|
 ## Poe Ninja API
 
 | Category                                                                                        | API                                                                             |
@@ -79,6 +80,7 @@ There are two types of data types in the poe ninja api. One is `currencyoverview
 |[Blight Ravaged Maps](#blight-ravaged-maps)|https://poe.ninja/api/data/itemoverview?league=LEAGUE-NAME&type=BlightRavagedMap|
 |[Invitations](#invitations)|https://poe.ninja/api/data/itemoverview?league=LEAGUE-NAME&type=Invitation|
 |[Memories](#memories)|https://poe.ninja/api/data/itemoverview?league=LEAGUE-NAME&type=Memory|
+|[Coffins](#coffins)|https://poe.ninja/api/data/itemoverview?league=LEAGUE-NAME&type=Coffin|
 
 
 ## Currency
@@ -1697,6 +1699,57 @@ There are two types of data types in the poe ninja api. One is `currencyoverview
             }
         ],
         "listingCount": 1815
+    }
+]
+```
+
+## Coffins
+
+- `https://poe.ninja/api/data/itemoverview?league=LEAGUE-NAME&type=Coffin`
+- `LEAGUE-NAME`: Write League Names
+- `id`: Unique Item Id
+- `name`: Item Name
+- `icon`: Png Photo
+- `chaosValue`: Chaos Price
+- `exaltedValue`: Exalted Price
+- `divineValue`: Divine Price
+- `detailsId`: Unique Name
+
+```json
+"lines": [
+    {
+        "id": 116312,
+        "name": "Creates a Sacrificial Garb",
+        "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvTmVjcm9wb2xpcy9OZWNyb3BvbGlzQ29mZmluRmlsbGVkIiwidyI6MiwiaCI6MSwic2NhbGUiOjF9XQ/5b4214a420/NecropolisCoffinFilled.png",
+        "levelRequired": 80,
+        "baseType": "Creates a Sacrificial Garb",
+        "itemClass": 5,
+        "sparkline": {
+            "data": [],
+            "totalChange": 0
+        },
+        "lowConfidenceSparkline": {
+            "data": [],
+            "totalChange": 792.03
+        },
+        "implicitModifiers": [
+            {
+                "text": "Creates a Sacrificial Garb",
+                "optional": false
+            }
+        ],
+        "explicitModifiers": [],
+        "flavourText": "",
+        "chaosValue": 267.61,
+        "exaltedValue": 27.82,
+        "divineValue": 2.02,
+        "count": 17,
+        "detailsId": "creates-a-sacrificial-garb-80",
+        "tradeInfo": [],
+        "tradeFilter": {
+            "query": {}
+        },
+        "listingCount": 17
     }
 ]
 ```
