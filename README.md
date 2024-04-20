@@ -47,6 +47,7 @@ There are two types of data types in the poe ninja api. One is `currencyoverview
 ||Invitations|
 ||Memories|
 ||Coffins|
+||AllflameEmbers|
 ## Poe Ninja API
 
 | Category                                                                                        | API                                                                             |
@@ -81,6 +82,7 @@ There are two types of data types in the poe ninja api. One is `currencyoverview
 |[Invitations](#invitations)|https://poe.ninja/api/data/itemoverview?league=LEAGUE-NAME&type=Invitation|
 |[Memories](#memories)|https://poe.ninja/api/data/itemoverview?league=LEAGUE-NAME&type=Memory|
 |[Coffins](#coffins)|https://poe.ninja/api/data/itemoverview?league=LEAGUE-NAME&type=Coffin|
+|[Allflame Embers](#allflame-embers)|https://poe.ninja/api/data/itemoverview?league=LEAGUE-NAME&type=AllflameEmber|
 
 
 ## Currency
@@ -1750,6 +1752,91 @@ There are two types of data types in the poe ninja api. One is `currencyoverview
             "query": {}
         },
         "listingCount": 17
+    }
+]
+```
+
+## Allflame Embers
+
+- `https://poe.ninja/api/data/itemoverview?league=LEAGUE-NAME&type=AllflameEmber`
+- `LEAGUE-NAME`: Write League Names
+- `id`: Unique Item Id
+- `name`: Item Name
+- `icon`: Png Photo
+- `chaosValue`: Chaos Price
+- `exaltedValue`: Exalted Price
+- `divineValue`: Divine Price
+- `detailsId`: Unique Name
+
+```json
+"lines": [
+    {
+        "id": 117303,
+        "name": "Allflame Ember of The Shaper",
+        "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvTmVjcm9wb2xpcy9BbGxmbGFtZUVtYmVyc0Jhc2VJbmZsdWVuY2UiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/002ce1f2e1/AllflameEmbersBaseInfluence.png",
+        "levelRequired": 82,
+        "baseType": "Allflame Ember of The Shaper",
+        "itemClass": 11,
+        "sparkline": {
+            "data": [
+                0,
+                -21.53,
+                -17.73,
+                44.98,
+                39.77,
+                47.13,
+                52.04
+            ],
+            "totalChange": 52.04
+        },
+        "lowConfidenceSparkline": {
+            "data": [
+                0,
+                -21.53,
+                -17.73,
+                44.98,
+                39.77,
+                47.13,
+                52.04
+            ],
+            "totalChange": 52.04
+        },
+        "implicitModifiers": [
+            {
+                "text": "Pack monsters can drop Shaper Influenced items\nPack monsters have a chance to leave corpses with a Special Craft",
+                "optional": false
+            },
+            {
+                "text": "Pack monsters can drop Shaper Influenced items",
+                "optional": true
+            }
+        ],
+        "explicitModifiers": [],
+        "flavourText": "",
+        "chaosValue": 310,
+        "exaltedValue": 36.9,
+        "divineValue": 2.37,
+        "count": 399,
+        "detailsId": "allflame-ember-of-the-shaper-(82-83)",
+        "tradeInfo": [],
+        "tradeFilter": {
+            "query": {
+                "type": {
+                    "option": "Allflame Ember of The Shaper"
+                },
+                "filters": {
+                    "misc_filters": {
+                        "filters": {
+                            "ilvl": {
+                                "min": 82,
+                                "max": 83
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "listingCount": 2240
     }
 ]
 ```
