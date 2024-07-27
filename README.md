@@ -4,14 +4,13 @@ Hi! I compiled **poe.ninja API** to use in projects
 
 ### Active League Names
 
-- `Necropolis`
+- `Settlers`
 - `Standard`
 - `Hardcore`
-- `Affliction`
+- `Necropolis`
 
 JS Libraries I Prepared
 - poe-api-manager [NPM](https://www.npmjs.com/package/poe-api-manager) [Github](https://github.com/ayberkgezer/poe-api-manager)
-- poe-api-manager-ts [NPM](https://www.npmjs.com/package/poe-api-manager-ts) [Github](https://github.com/ayberkgezer/poe-api-manager-ts)
 
 ## Poe Ninja
 
